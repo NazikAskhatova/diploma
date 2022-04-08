@@ -1,5 +1,6 @@
+
 import "./Header.css";
-import headerImage from "../../assets/header-2-jewerly.jpg";
+import headerImage from "../../assets/jewelry-header.jpg";
 
 function Header() {
   const style = {
@@ -8,8 +9,8 @@ function Header() {
 
   return (
     <header className="Header" style={style}>
-      <h1>The most fresh coffee beans</h1>
-      <p>This is an internet shop</p>
+      <h1>Our Jewellery Is Art.</h1>
+      <p>Always For You.</p>
     </header>
   );
 }
