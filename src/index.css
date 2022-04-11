@@ -4,8 +4,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Beau Rivage', cursive;
-font-family: 'Mukta', sans-serif;
+
+}
+
+.font-styles {
+   font-family: 'Mukta', sans-serif;
 font-family: 'Mukta Mahee', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Rubik', sans-serif;
 }
+ 
