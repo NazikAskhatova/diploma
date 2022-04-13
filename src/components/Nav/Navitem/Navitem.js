@@ -1,17 +1,12 @@
 import "./NavItem.css";
 
 function NavItem(props) {
-  const classNames = [];
-  if (props.active) {
-    classNames.push('active');
-  }
-
   return (
     <li className="NavItem">
-      <a href={props.url}
-        className={classNames.join(' ')}>
+      <NavLink to={props.url}
+         active={props.active}>
         {props.children}
-      </a>
+      </NavLink>
     </li>
   );
 }

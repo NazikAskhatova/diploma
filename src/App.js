@@ -1,5 +1,3 @@
-
-
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
@@ -15,16 +13,22 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
-
+      <Router>
+        <Route path="/" />
+        <Route path="/contacts" />
+        <Route path="/products" />
+        <Route path="/about" />
+        <Route path="/shop" />
+      </Router>
       <Home />
       <Contacts />
       <Products />
-<About />
-<Shop />
+      <About />
+      <Shop />
 
       <Footer />
     </div>
-  )
-};
+  );
+}
 
 export default App;

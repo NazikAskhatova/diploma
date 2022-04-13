@@ -10,6 +10,8 @@ function Nav() {
         <NavItem url="/">Home</NavItem>
         <NavItem url="/">Products</NavItem>
         <NavItem url="/">Contacts</NavItem>
+        <NavItem url="/">About</NavItem>
+        <NavItem url="/">Shop</NavItem>
       </ul>
     </nav>
   )};
