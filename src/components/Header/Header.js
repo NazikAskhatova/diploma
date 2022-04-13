@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <header className="Header" style={style}>
-      <h1 class="font-jew">Our Jewellery Is Art.</h1>
+      <h1>Our Jewellery Is Art.</h1>
       <p>Always For You.</p>
     </header>
   );
