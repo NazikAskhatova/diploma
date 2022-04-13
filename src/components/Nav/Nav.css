@@ -4,8 +4,7 @@
     justify-content: space-between;
     background-color: rgb(158, 93, 47);
     color: rgb(255, 255, 255);
-    padding: 0 1rem;
-    font-family: 'Mukta Mahee', sans-serif;
+    padding: 0 1rem
   }
   .Nav ul {
     list-style: none;

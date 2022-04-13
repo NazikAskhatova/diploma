@@ -8,18 +8,20 @@ import Products from "./pages/Products";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
 
+import { Route , Routes } from "react-router-dom";
+ 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Header />
-      <Router>
-        <Route path="/" />
-        <Route path="/contacts" />
-        <Route path="/products" />
-        <Route path="/about" />
-        <Route path="/shop" />
-      </Router>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/products" element={<Products />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/shop" element={<Shop />}/>
+      </Routes>
       <Home />
       <Contacts />
       <Products />

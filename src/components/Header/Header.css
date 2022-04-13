@@ -11,6 +11,7 @@
   }
   .Header h1 {
     margin: 0;
+    font-family: 'Beau Rivage', cursive;
   }
 .Header h1, p {
     text-align: center;
