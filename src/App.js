@@ -7,7 +7,7 @@ import Contacts from "./pages/Contacts";
 import Products from "./pages/Products";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
-
+import React from "react";
 import { Route , Routes } from "react-router-dom";
  
 function App() {
