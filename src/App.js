@@ -22,11 +22,8 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/shop" element={<Shop />}/>
       </Routes>
-      <Home />
-      <Contacts />
-      <Products />
-      <About />
-      <Shop />
+
+
 
       <Footer />
     </div>
