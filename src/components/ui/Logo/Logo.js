@@ -1,7 +1,8 @@
+import "./Logo.css"
 const Logo = () =>{
     return (
-        <div>Jewerly Store</div>
+        <div>Jewerly Art</div>
     )
 }
 
-export default Logo ;
+export default Logo;
