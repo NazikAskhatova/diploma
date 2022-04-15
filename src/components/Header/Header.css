@@ -17,12 +17,12 @@
     text-align: center;
 }
 .first-art {
-  size: 6.5rem;
+font-size: 3rem;
   color: rgb(147, 89, 13);
 }
 .second-art {
 color: white;
 font-size: bold;
 text-transform: uppercase;
-
+font-size: 1.5rem;
 }
