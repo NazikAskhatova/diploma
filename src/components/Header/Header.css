@@ -6,7 +6,7 @@
     justify-content: center;
     padding: 1rem;
     background-size: cover;
-    color: rgb(128, 74, 5);
+    color: rgb(147, 89, 13);
     text-shadow: 0 0 20px rgba(255, 255, 255, .5);
   }
   .Header h1 {
@@ -15,4 +15,14 @@
   }
 .Header h1, p {
     text-align: center;
+}
+.first-art {
+  size: 6.5rem;
+  color: rgb(147, 89, 13);
+}
+.second-art {
+color: white;
+font-size: bold;
+text-transform: uppercase;
+
 }
