@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import headerImage from "../../assets/jewelry-header.jpg";
+import headerImage from "../../assets/jewellery-header";
 
 function Header() {
   const style = {
