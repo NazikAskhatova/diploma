@@ -1,10 +1,12 @@
 import React from "react";
 import "./Header.css";
-import headerImage from "../../assets/jewellery_header.webp";
+import headerImage from "../../assets/header-jw.jpg";
 
 function Header() {
   const style = {
-    backgroundImage: `url(${headerImage})`
+    backgroundImage: `url(${headerImage})`,
+    backgroundPosition: "center",
+
   };
 
   return (
