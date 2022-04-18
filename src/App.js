@@ -8,24 +8,24 @@ import Products from "./pages/Products";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
 import React from "react";
-import { Route , Routes } from "react-router-dom";
- 
+import { Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/contacts" element={<Contacts />} />
-        <Route path="/products" element={<Products />}/>
-        <Route path="/about" element={<About />}/>
-        <Route path="/shop" element={<Shop />}/>
-      </Routes>
 
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/shop" element={<Shop />} />
+        </Routes>
+      </Layout>
 
-
-      <Footer />
+    
     </div>
   );
 }

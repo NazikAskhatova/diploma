@@ -5,7 +5,8 @@ import React from "react";
 function Nav() {
   return (
     <nav className="Nav">
-      <Logo />
+      <div className="container">
+        <Logo />
       <ul>
         <NavItem url="/">Home</NavItem>
         <NavItem url="/products">Products</NavItem>
@@ -13,6 +14,7 @@ function Nav() {
         <NavItem url="/about">About</NavItem>
         <NavItem url="/shop">Shop</NavItem>
       </ul>
+      </div>
     </nav>
   )};
 

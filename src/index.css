@@ -8,4 +8,10 @@ body {
 font-family: 'Raleway', sans-serif;
 font-family: 'Rubik', sans-serif;
 }
+
+.container {
+  max-width: 957px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
  
