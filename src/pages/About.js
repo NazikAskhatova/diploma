@@ -1,10 +1,12 @@
 import "./style.css"
 import React from "react";
+import Header from "../components/Header/Header";
+import image from "../assets/jewellery_header.webp";
 function About() {
     return (
-      <article className="text-center">
-        <h1>About our talented team and company.</h1>
-      </article>
+      <>
+      <Header title="About our talented team and company." image={image}> You can connect with us.</Header>
+    </>
     );
   }
   

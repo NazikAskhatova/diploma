@@ -1,18 +1,20 @@
 import React from "react";
 import "./Header.css";
-import headerImage from "../../assets/header-jw.jpg";
 
-function Header() {
+
+function Header({ image, title, children }) {
   const style = {
-    backgroundImage: `url(${headerImage})`,
+    backgroundImage: `url(${image})`,
     backgroundPosition: "center",
-
   };
 
   return (
-    <header className="Header" style={style}>
-      <h1 className="first-art">Our Jewellery Is Art.</h1>
-      <p className="second-art">Always For You.</p>
+    <header className="Header">
+      {/* <img src={image} /> */}
+      <section style={style} className="section-cont">
+       <h1 className="first-art">{title}</h1>
+      <p className="second-art">{children}</p>
+      </section>
     </header>
   );
 }
