@@ -1,11 +1,14 @@
 import "./style.css"
 import React from "react";
+import Header from "../components/Header/Header";
+import image from "../assets/jew-shop.jpeg";
+
 function Products() {
     return (
-      <article className="text-center">
-        <h1>You can find whatever you want.</h1>
-      </article>
+      <>
+      <Header title="You can find whatever you want." image={image}></Header>
+    </>
     );
   }
-  
+
   export default Products;

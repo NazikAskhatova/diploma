@@ -1,13 +1,13 @@
 import "./style.css"
 import React from "react";
+import Header from "../components/Header/Header";
+import image from "../assets/shop-assets.webp";
 function Contacts() {
     return (
-      <article className="text-center">
-        <h1>You can connect with us.</h1>
-
-        <p>Our Social Media and Contacts</p>
-      </article>
+      <>
+      <Header title="Here you can find our contacts and social media." image={image}> You can connect with us.</Header>
+    </>
     );
   }
-  
+
   export default Contacts;
