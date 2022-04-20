@@ -7,7 +7,6 @@ function Shop() {
       <>
       <Header title="  You can shop with us undoubtedly." image={image}></Header>
     </>
-     
     );
   }
 
