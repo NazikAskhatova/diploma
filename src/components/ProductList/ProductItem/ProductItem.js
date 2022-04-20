@@ -1,6 +1,8 @@
+import classes from "./ProductItem.module.css"
+
 function ProductItem({ product }) {
     return (
-        <div className="ProductItem">
+        <div className={classes.ProuctItem}>
 
         </div>
     )
