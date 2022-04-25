@@ -13,37 +13,37 @@ import Watches from "../assets/products-card.jpg";
 
 function Products() {
   const products = {
-   rings: {
+   Rings: {
       image: Rings,
       path: "/",
       title: "All Catalog with Rings category is here",
       price: 79.9,
     },
-    whiteChocolateSalami: {
+   Earrings: {
       image: Earrings,
       path: "/",
       title: "All Catalog with Earrings category is here",
       price: 89.9,
     },
-    terrysChocolateCheesecake: {
+   Bracellets: {
       image: Bracellets,
       path: "/",
       title: "All Catalog with Bracellets is here",
       price: 119,
     },
-    raspberryRoseMarshmallows: {
+   weddingRings: {
       image: weddingRings,
       path: "/",
       title: "All Catalog with Wedding Rings is here",
       price: 69,
     },
-    whiteChocolateFudge: {
+ Necklakes: {
       image: Necklakes,
       path: "/",
       title: "All Catalog with Necklakes is here",
       price: 99.9,
     },
-    strawberryCupcakes: {
+    Watches: {
       image: Watches,
       path: "/",
       title: "All Catalog with Watches is here",
