@@ -20,8 +20,7 @@
     right: 1.5rem;
     z-index: 1;
   
-    color: #0b1c2c;
-    /* font-size: 1.2rem; */
+    color: #45310c;
     font-family: 'Libre Baskerville', serif;
     text-transform: lowercase;
     text-decoration: none;
@@ -34,7 +33,7 @@
     z-index: 3;
     right: 0;
   
-    background-color: #0b1c2c;
+    background-color: #d3a436;
     color: white;
     font-weight: bold;
     font-size: 1.3rem;
