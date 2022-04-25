@@ -1,17 +1,16 @@
-import classes from "./ProductItem.module.css";
+
+import React from "react";
 import { Link } from "react-router-dom";
-import productImage from "../../../assets/products-6.jpg";
+import classes from "./ProductItem.module.css";
 
 function ProductItem({ product }) {
-    return (
-        <div className={classes.ProuctItem}>
-<img src={productImage}/>
-<div>
-    <Link to="/">Rings</Link>
- <div className={classes.price}>$79.9</div>
-</div>
-        </div>
-    )
+  return (
+    <div className={classes.ProductItem}>
+      <img src={product.image} alt="/" />
+      <Link to={product.path}>{product.title}</Link>
+      <div className={classes.price}>{product.price}</div>
+    </div>
+  );
 }
 
 export default ProductItem;
