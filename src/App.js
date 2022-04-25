@@ -4,7 +4,7 @@
 
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
-import Products from "./pages/Products";
+import Products from "./data/Products";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
 import React from "react";
