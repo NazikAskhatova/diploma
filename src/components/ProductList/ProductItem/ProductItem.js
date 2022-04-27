@@ -7,7 +7,7 @@ function ProductItem({ product }) {
   return (
     <div className={classes.ProductItem}>
       <img src={product.image} alt="/" />
-      <Link to={product.path}>{product.title}</Link>
+      <Link className={classes.ProductItemText} to={product.path}>{product.title}</Link>
       <div className={classes.price}>{product.price}</div>
     </div>
   );
