@@ -2,6 +2,8 @@ import "./Nav.css";
 import Logo from "../ui/Logo/Logo";
 import NavItem from "./NavItem";
 import React from "react";
+import NavToggle from "./NavToggle/NavToggle";
+
 function Nav() {
   return (
     <nav className="Nav">
@@ -14,6 +16,7 @@ function Nav() {
         <NavItem url="/about">About</NavItem>
         <NavItem url="/shop">Shop</NavItem>
       </ul>
+      <NavToggle />
       </div>
     </nav>
   )};
