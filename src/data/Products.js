@@ -54,7 +54,7 @@ function Products() {
   return (
     <>
       <Header
-        title="Shop with us unfortunaly"
+        title="Shop with us. Be confident with us"
         image={image}>
        
       </Header>
