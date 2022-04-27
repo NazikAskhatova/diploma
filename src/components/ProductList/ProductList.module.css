@@ -1,4 +1,9 @@
 .ProductList {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  padding-top: 4rem;
 }
