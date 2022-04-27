@@ -25,3 +25,9 @@
     background-color: rgba(237, 214, 154, 0.637);
     color: rgb(241, 223, 175);
   }
+
+  @media (max-width: 900px) {
+    .Nav ul {
+      display: none;
+    }
+  }
