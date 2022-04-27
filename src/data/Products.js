@@ -11,37 +11,37 @@ import Watches from "../assets/products-card.jpg";
       image: Rings,
       productId: "rings",
       title: "Rings category is here",
-      price: 79.9,
+      price: 79,
     },
    {
       image: Earrings,
       productId: "earrings",
       title: "Earrings category is here",
-      price: 89.9,
+      price: 89,
     },
    {
       image: Bracellets,
       productId: "bracellets",
       title: "Bracellets is here",
-      price: 119.8,
+      price: 119,
     },
   {
       image: weddingRings,
       productId: "wedding-rings",
       title: "Wedding Rings is here",
-      price: 69.9,
+      price: 69,
     },
   {
       image: Necklakes,
       productId: "necklakes",
       title: "Necklakes is here",
-      price: 99.9,
+      price: 99,
     },
     {
       image: Watches,
       productId: "watches",
       title: "Watches is here",
-      price: 109.9,
+      price: 109,
     },
   ]
 
