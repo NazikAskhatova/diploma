@@ -2,7 +2,7 @@ import "../pages/style.css";
 import React from "react";
 import Header from "../components/Header/Header";
 import ProductList from "../components/ProductList/ProductList";
-import image from "../assets/jew-shop.jpeg";
+import image from "../assets/about-header.jpg";
 
 import Rings from "../assets/products-2.jpg";
 import Earrings from "../assets/products-3.jpg";

@@ -1,7 +1,7 @@
 import "./style.css"
 import React from "react";
 import Header from "../components/Header/Header";
-import image from "../assets/jewellery_header.webp";
+import image from "../assets/contacts-header.jpg";
 function About() {
     return (
       <>
