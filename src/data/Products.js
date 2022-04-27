@@ -1,8 +1,3 @@
-import "../pages/style.css";
-import React from "react";
-import Header from "../components/Header/Header";
-import ProductList from "../components/ProductList/ProductList";
-import image from "../assets/about-header.jpg";
 
 import Rings from "../assets/products-2.jpg";
 import Earrings from "../assets/products-3.jpg";
@@ -11,56 +6,45 @@ import weddingRings from "../assets/products-6.jpg";
 import Necklakes from "../assets/products-7.jpg";
 import Watches from "../assets/products-card.jpg";
 
-function Products() {
-  const products = {
-   Rings: {
+  const products = [
+   {
       image: Rings,
-      path: "/",
+      productId: "rings",
       title: "Rings category is here",
       price: 79.9,
     },
-   Earrings: {
+   {
       image: Earrings,
-      path: "/",
+      productId: "earrings",
       title: "Earrings category is here",
       price: 89.9,
     },
-   Bracellets: {
+   {
       image: Bracellets,
-      path: "/",
+      productId: "bracellets",
       title: "Bracellets is here",
       price: 119.8,
     },
-   weddingRings: {
+  {
       image: weddingRings,
-      path: "/",
+      productId: "wedding-rings",
       title: "Wedding Rings is here",
       price: 69.9,
     },
- Necklakes: {
+  {
       image: Necklakes,
-      path: "/",
+      productId: "necklakes",
       title: "Necklakes is here",
       price: 99.9,
     },
-    Watches: {
+    {
       image: Watches,
-      path: "/",
+      productId: "watches",
       title: "Watches is here",
       price: 109.9,
     },
-  };
+  ]
 
-  return (
-    <>
-      <Header
-        title="Shop with us. Be confident with us"
-        image={image}>
-       
-      </Header>
-
-      <ProductList products={products} />
-    </>
-  );
-} 
- export default Products;
+  export function getProducts() {
+    return products;
+  }
