@@ -8,7 +8,7 @@ import Watches from "../assets/products-card.jpg";
 
   const products = [
    {
-      image: Rings,
+      image: Watches,
       productId: "rings",
       title: "Rings category is here",
       price: 79,
@@ -38,7 +38,7 @@ import Watches from "../assets/products-card.jpg";
       price: 99,
     },
     {
-      image: Watches,
+      image: Rings,
       productId: "watches",
       title: "Watches is here",
       price: 109,
