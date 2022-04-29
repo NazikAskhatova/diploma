@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import ProductList from "../components/ProductList/ProductList";
 import image from "../assets/about-header.jpg";
-import { getProducts } from "../data/products";
+import { getProducts } from "../data/dataProducts";
 
 function Products() {
         return (
