@@ -1,11 +1,12 @@
 import React from "react";
 import classes from "./NavToggle.module.css";
 
-function NavToggle() {
-    return (
-         <button className={classes.NavToggle}>
-         </button>
-    );
+function NavToggle({ callback }) {
+  return (
+    <button onClick={callback} className={classes.NavToggle}>
+      &nbsp;
+    </button>
+  );
 }
 
-export default NavToggle;
+  export default NavToggle;

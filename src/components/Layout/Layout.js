@@ -1,17 +1,24 @@
+import { useState } from "react";
+import Drawer from "../Drawer/Drawer";
+import Footer from "../Footer/Footer";
+import Toolbar from "../Toolbar/Toolbar";
 
-import React from "react";
-import Nav from "../Nav/Nav";
-import Footer from "../Footer/Footer"
 function Layout({ children }) {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  function toggleDrawer() {
+    setDrawerOpen(!drawerOpen);
+  }
+
   return (
     <main className="Layout">
-      <Nav />
+      <Toolbar toggleDrawer={toggleDrawer} />
+      <Drawer open={drawerOpen} toggle={toggleDrawer} />
       <div className="container">
-    {children}
+        {children}
       </div>
       <Footer />
     </main>
   );
 }
-
 export default Layout;
