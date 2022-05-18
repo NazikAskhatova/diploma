@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import CategoryList from "../components/CategoryList/CategoryList";
 import image from "../assets/about-header.jpg";
-import { getCategories } from "../data/categories";
+import { getCategories } from "../data/dataCategories";
 
 function Categories() {
         return (
