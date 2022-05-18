@@ -1,0 +1,43 @@
+.CategoryItem img {
+    width: 60%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    border-radius: 8%;
+  }
+  .CategoryItem {
+    position: relative;
+    flex: 0 0 30%;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .CategoryItemText {
+    display: block;
+  
+    color: #916411;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .CategoryItem .price {
+    position: absolute;
+    top: -1rem;
+  
+    z-index: 1;
+    right: 6;
+  
+    background-color: #dea41e;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  

@@ -6,9 +6,12 @@ import Layout from "./components/Layout/Layout";
 // import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
+import Product from "./pages/Product";
+import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
+import Categories from "./pages/Categories";
 
 function App() {
   return (
@@ -19,8 +22,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/products/:productId" element={<Product />} />
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/categories/:categoryId" element={<Product />} />
           <Route path="/about" element={<About />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
 
