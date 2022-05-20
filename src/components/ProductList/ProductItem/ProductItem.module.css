@@ -15,7 +15,7 @@
   margin-top: 1rem;
   text-align: center;
 }
-.ProductItemText {
+.ProductItem a {
   display: block;
 
   color: #916411;

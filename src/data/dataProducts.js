@@ -9,41 +9,58 @@ const products = [
   {
     image: Watches,
     productId: "rings",
-    title: "Rings category is here",
+    categoryId: "coupleBracellets",
+    title: "Gold Rings",
     price: 79,
   },
   {
     image: Earrings,
     productId: "earrings",
-    title: "Earrings category is here",
+    categoryId: "designRings",
+    title: "Earrings",
     price: 89,
   },
   {
     image: Bracellets,
     productId: "bracellets",
-    title: "Bracellets is here",
+    categoryId: "bracellets",
+    title: "Bracellets",
     price: 119,
   },
   {
     image: weddingRings,
     productId: "wedding-rings",
-    title: "Wedding Rings is here",
+    categoryId: "wedding",
+    title: "Wedding Rings",
     price: 69,
   },
   {
     image: Necklakes,
     productId: "necklakes",
+    categoryId: "all rings",
     title: "Necklakes is here",
     price: 99,
   },
   {
     image: Rings,
     productId: "watches",
+    categoryId: "duorings",
     title: "Watches is here",
     price: 109,
   },
 ];
 
-export function getProducts() {
+export function getProducts(category) {
+  if (category) {
+    return products.filter(product => product.categoryId === category);
+  }
   return products;
+}
+
+export function getProduct(productId) {
+  return products [
+    products.findIndex(
+      product =>  product.productId === productId
+    )
+  ];
 }

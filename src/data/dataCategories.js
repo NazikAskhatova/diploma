@@ -22,7 +22,7 @@ const categories = [
   },
   {
     image: bracelletsCategory,
-    productId: "bracellets",
+    categoryId: "bracellets",
     title: "All Bracellets",
     price: 119,
     description: "You can find all our special bracellets here"
@@ -57,7 +57,7 @@ export function getCategories() {
 export function getCategory(categoryId){
   return categories [
     categories.findIndex(
-      category => category.categoryId === categoryId
+      category =>  category.categoryId === categoryId
     )
   ];
 }

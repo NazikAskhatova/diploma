@@ -15,7 +15,7 @@
     margin-top: 1rem;
     text-align: center;
   }
-  .CategoryItemText {
+  .CategoryItem a {
     display: block;
   
     color: #916411;
@@ -24,7 +24,7 @@
     font-weight: bold;
     text-decoration: none;
   }
-  .CategoryItem .price {
+  /* .CategoryItem .price {
     position: absolute;
     top: -1rem;
   
@@ -39,5 +39,5 @@
     text-align: center;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
+  } */
   
