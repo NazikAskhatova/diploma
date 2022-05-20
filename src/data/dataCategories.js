@@ -1,46 +1,52 @@
-import Rings from "../assets/products-2.jpg";
-import Earrings from "../assets/products-3.jpg";
-import Bracellets from "../assets/products-5.jpg";
-import weddingRings from "../assets/products-6.jpg";
-import Necklakes from "../assets/products-7.jpg";
-import Watches from "../assets/products-card.jpg";
+import bracelletsCategory from "../assets/categories-1.jpg";
+import designRings from "../assets/categories-2.jpg";
+import coupleBracellets from "../assets/categories-3.jpg";
+import weddingJewerly from "../assets/categories-4.jpg";
+import coupleRings from "../assets/categories-6.jpg";
+import Rings from "../assets/categories-5.jpg";
 
 const categories = [
   {
-    image: Watches,
-    categoryId: "rings",
-    title: "Rings category is here",
+    image: designRings,
+    categoryId: "designRings",
+    title: "Design Rings",
     price: 79,
+    description: "Our specially rings for your loved ones"
   },
   {
-    image: Earrings,
-    categoryId: "earrings",
-    title: "Earrings category is here",
+    image: coupleBracellets,
+    categoryId: "coupleBracellets",
+    title: "Couple Bracellets",
     price: 89,
+    description: "Find the best gift for your Valentine!"
   },
   {
-    image: Bracellets,
+    image: bracelletsCategory,
     productId: "bracellets",
-    title: "Bracellets is here",
+    title: "All Bracellets",
     price: 119,
+    description: "You can find all our special bracellets here"
   },
   {
-    image: weddingRings,
-    categoryId: "wedding-rings",
-    title: "Wedding Rings is here",
+    image: weddingJewerly,
+    categoryId: "wedding",
+    title: "Wedding Jewerly",
     price: 69,
-  },
-  {
-    image: Necklakes,
-    categoryId: "necklakes",
-    title: "Necklakes is here",
-    price: 99,
+    description: "Our all best art for your best day"
   },
   {
     image: Rings,
-    categoryId: "watches",
-    title: "Watches is here",
+    categoryId: "all rings",
+    title: "All rings",
+    price: 99,
+    description: "There you can find our all special rings"
+  },
+  {
+    image: coupleRings ,
+    categoryId: "duorings",
+    title: "Couple Rings",
     price: 109,
+    description: "Find the best rings for your Valentine"
   },
 ];
 
