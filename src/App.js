@@ -10,7 +10,6 @@ import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
 import About from "./pages/About";
-import Shop from "./pages/Shop";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 
