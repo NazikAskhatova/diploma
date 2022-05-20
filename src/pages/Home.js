@@ -1,7 +1,7 @@
 import "./style.css";
 import React from "react";
 import Header from "../components/Header/Header";
-import image from "../assets/header-jw.jpg" 
+import image from "../assets/categories-1.jpg" 
 import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/dataCategories";
 

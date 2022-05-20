@@ -1,53 +1,50 @@
-import bracelletsCategory from "../assets/categories-1.jpg";
+import designJew from "../assets/products-5.jpg";
 import designRings from "../assets/categories-2.jpg";
-import coupleBracellets from "../assets/categories-3.jpg";
-import weddingJewerly from "../assets/categories-4.jpg";
-import coupleRings from "../assets/categories-6.jpg";
-import Rings from "../assets/categories-5.jpg";
+import Bracellets from "../assets/categories-3.jpg";
+import weddingJewerly from "../assets/products-4.jpg";
+import Necklakes from "../assets/categories-7.jpg";
+import Gifts from "../assets/products-3.jpg";
 
 const categories = [
   {
     image: designRings,
     categoryId: "designRings",
-    title: "Design Rings",
-    price: 79,
+    title: "Rings",
     description: "Our specially rings for your loved ones"
+  }, 
+  {
+    image: Necklakes ,
+    categoryId: "duorings",
+    title: "Necklakes",
+    description: "Find the best rings for your Valentine"
   },
   {
-    image: coupleBracellets,
+    image: Bracellets,
     categoryId: "coupleBracellets",
-    title: "Couple Bracellets",
-    price: 89,
+    title: "Bracellets",
     description: "Find the best gift for your Valentine!"
-  },
-  {
-    image: bracelletsCategory,
-    categoryId: "bracellets",
-    title: "All Bracellets",
-    price: 119,
-    description: "You can find all our special bracellets here"
   },
   {
     image: weddingJewerly,
     categoryId: "wedding",
     title: "Wedding Jewerly",
-    price: 69,
     description: "Our all best art for your best day"
   },
+   {
+    image: designJew,
+    categoryId: "bracellets",
+    title: "Special design for your art",
+    price: 119,
+    description: "You can find all our special bracellets here"
+  },
   {
-    image: Rings,
+    image: Gifts ,
     categoryId: "all rings",
-    title: "All rings",
+    title: "Our gifts",
     price: 99,
     description: "There you can find our all special rings"
   },
-  {
-    image: coupleRings ,
-    categoryId: "duorings",
-    title: "Couple Rings",
-    price: 109,
-    description: "Find the best rings for your Valentine"
-  },
+ 
 ];
 
 export function getCategories() {
