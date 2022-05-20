@@ -34,6 +34,7 @@
   .open .content {
     transform: translateX(0);
   }
+
   
   @media (min-width: 620px) {
     .Drawer .backdrop {

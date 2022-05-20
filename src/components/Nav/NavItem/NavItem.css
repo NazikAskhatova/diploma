@@ -1,4 +1,4 @@
-/* .NavItem a {
+.NavItem a {
     display: block;
     padding: 1rem 1.5rem;
     color: white;
@@ -11,7 +11,7 @@
   }
   .NavItem a:hover {
     background-color: rgba(228, 211, 137, 0.1);
-  } */
+  }
 
   .NavItem a:hover {
     background-color: rgba(155, 102, 22, 0.1);
