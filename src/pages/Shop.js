@@ -1,11 +1,11 @@
 import "./style.css"
 import React from "react";
 import Header from "../components/Header/Header";
-import image from "../assets/shop-assets.webp";
+import image from "../assets/categories-navbar-2.jpg";
 function Shop() {
     return (
       <>
-      <Header title="  You can shop with us undoubtedly." image={image}></Header>
+      <Header title="Find whatever you want" image={image}></Header>
     </>
     );
   }

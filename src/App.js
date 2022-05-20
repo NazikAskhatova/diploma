@@ -27,7 +27,7 @@ function App() {
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<Category />} />
           <Route path="/about" element={<About />} />
-          <Route path="/shop" element={<Shop />} />
+          {/* <Route path="/shop" element={<Shop />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
