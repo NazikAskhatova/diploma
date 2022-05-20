@@ -2,6 +2,10 @@ import "./style.css";
 import React from "react";
 import Header from "../components/Header/Header";
 import image from "../assets/header-jw.jpg" 
+import CategoryList from "../components/CategoryList/CategoryList";
+import { getCategories } from "../data/dataCategories";
+
+
 function Home() {
   return (
     // <article className="text-center">
@@ -10,6 +14,7 @@ function Home() {
     // </article>
     <>
       <Header title="Jewelry is our art." image={image}> Always for you. </Header>
+      <CategoryList categories={getCategories()}/>
     </>
   );
 }
