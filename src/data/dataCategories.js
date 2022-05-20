@@ -47,3 +47,11 @@ const categories = [
 export function getCategories() {
   return categories;
 }
+
+export function getCategory(categoryId){
+  return categories [
+    categories.findIndex(
+      category => category.categoryId === categoryId
+    )
+  ];
+}
