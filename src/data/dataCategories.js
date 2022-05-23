@@ -1,6 +1,6 @@
 import designJew from "../assets/products-5.jpg";
 import designRings from "../assets/categories-2.jpg";
-import Bracellets from "../assets/categories-3.jpg";
+import Bracelets from "../assets/categories-3.jpg";
 import weddingJewerly from "../assets/products-4.jpg";
 import Necklakes from "../assets/categories-7.jpg";
 import Gifts from "../assets/products-3.jpg";
@@ -14,13 +14,13 @@ const categories = [
   }, 
   {
     image: Necklakes ,
-    categoryId: "duorings",
+    categoryId: "necklaces",
     title: "Necklakes",
     description: "Find the best rings for your Valentine"
   },
   {
-    image: Bracellets,
-    categoryId: "coupleBracellets",
+    image: Bracelets,
+    categoryId: "bracelets",
     title: "Bracellets",
     description: "Find the best gift for your Valentine!"
   },
@@ -32,7 +32,7 @@ const categories = [
   },
    {
     image: designJew,
-    categoryId: "bracellets",
+    categoryId: "designJew",
     title: "Special design for your art",
     price: 119,
     description: "You can find all our special bracellets here"

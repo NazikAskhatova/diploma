@@ -6,7 +6,7 @@ import Layout from "./components/Layout/Layout";
 // import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
-import Product from "./pages/Product";
+import Product from "./pages/Product/Product";
 import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
 import About from "./pages/About";
@@ -30,7 +30,6 @@ function App() {
         </Routes>
       </Layout>
 
-    
     </div>
   );
 }
