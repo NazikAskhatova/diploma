@@ -6,7 +6,7 @@ import classes from "./CategoryItem.module.css";
 function CategoryItem({ category }) {
   return (
     <div className={classes.CategoryItem}>
-      <img src={category.image} alt={category} />
+     <Link to={"/categories/" + category.categoryId}><img src={category.image} alt={category} /></Link> 
       <Link to={"/categories/" + category.categoryId}>{category.title}</Link>
     </div>
   );
