@@ -1,17 +1,11 @@
 import designJew from "../assets/products-5.jpg";
-import designRings from "../assets/categories-2.jpg";
+
 import Bracelets from "../assets/categories-3.jpg";
 import weddingJewerly from "../assets/products-4.jpg";
 import Necklakes from "../assets/necklaces.jpg";
 import Gifts from "../assets/products-3.jpg";
 
 const categories = [
-  {
-    image: designRings,
-    categoryId: "designRings",
-    title: "Rings",
-    description: "Our specially rings for your loved ones",
-  },
   {
     image: Necklakes,
     categoryId: "necklaces",
