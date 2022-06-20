@@ -2,7 +2,7 @@ import designJew from "../assets/products-5.jpg";
 
 import Bracelets from "../assets/categories-3.jpg";
 import weddingJewerly from "../assets/products-4.jpg";
-import Necklakes from "../assets/necklaces.jpg";
+import Necklakes from "../assets/products-4.jpg";
 import Gifts from "../assets/products-3.jpg";
 
 const categories = [
