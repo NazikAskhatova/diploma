@@ -16,7 +16,6 @@ import Category from "./pages/Category";
 function App() {
   return (
     <div className="App">
-
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -29,7 +28,6 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
-
     </div>
   );
 }

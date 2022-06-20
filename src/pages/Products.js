@@ -6,18 +6,13 @@ import image from "../assets/about-header.jpg";
 import { getProducts } from "../data/dataProducts";
 
 function Products() {
-        return (
+  return (
     <>
-      <Header
-        title="Shop with us. Be confident with us"
-        image={image}>
-       
-      </Header>
+      <Header title="Shop with us. Be confident with us" image={image}></Header>
 
       <ProductList products={getProducts()} />
     </>
-  )
-  }
+  );
+}
 
-
- export default Products;
+export default Products;

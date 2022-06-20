@@ -4,9 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="Footer">
-      <div className="container">
-       Jewerly Is Art
- </div>
+      <div className="container">Jewerly Is Art</div>
     </footer>
   );
 }

@@ -6,18 +6,13 @@ import image from "../assets/about-header.jpg";
 import { getCategories } from "../data/dataCategories";
 
 function Categories() {
-        return (
+  return (
     <>
-      <Header
-        title="Shop with us. Be confident with us"
-        image={image}>
-       
-      </Header>
+      <Header title="Shop with us. Be confident with us" image={image}></Header>
 
       <CategoryList categories={getCategories()} />
     </>
-  )
-  }
+  );
+}
 
-
- export default Categories;
+export default Categories;

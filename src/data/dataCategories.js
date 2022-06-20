@@ -10,51 +10,48 @@ const categories = [
     image: designRings,
     categoryId: "designRings",
     title: "Rings",
-    description: "Our specially rings for your loved ones"
-  }, 
+    description: "Our specially rings for your loved ones",
+  },
   {
-    image: Necklakes ,
+    image: Necklakes,
     categoryId: "necklaces",
     title: "Necklakes",
-    description: "Find the best rings for your Valentine"
+    description: "Find the best rings for your Valentine",
   },
   {
     image: Bracelets,
     categoryId: "bracelets",
     title: "Bracellets",
-    description: "Find the best gift for your Valentine!"
+    description: "Find the best gift for your Valentine!",
   },
   {
     image: weddingJewerly,
     categoryId: "wedding",
     title: "Wedding Jewerly",
-    description: "Our all best art for your best day"
+    description: "Our all best art for your best day",
   },
-   {
+  {
     image: designJew,
     categoryId: "designJew",
     title: "Special design for your art",
     price: 119,
-    description: "You can find all our special bracellets here"
+    description: "You can find all our special bracellets here",
   },
   {
-    image: Gifts ,
+    image: Gifts,
     categoryId: "all rings",
     title: "Our gifts",
     price: 99,
-    description: "There you can find our all special rings"
+    description: "There you can find our all special rings",
   },
- 
 ];
 
 export function getCategories() {
   return categories;
 }
 
-export function getCategory(categoryId){
-  return categories [
-    categories.findIndex(
-      category =>  category.categoryId === categoryId
-    )
+export function getCategory(categoryId) {
+  return categories[
+    categories.findIndex((category) => category.categoryId === categoryId)
   ];
 }

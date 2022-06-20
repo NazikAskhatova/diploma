@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useParams } from "react-router-dom";
 import Header from "../../components/Header/Header";
@@ -12,13 +11,11 @@ function Product() {
   }
 
   return (
-<>
-<Header 
-title={product.title}
-image={product.image}>
-{product.description}
-</Header>
-</>
+    <>
+      <Header title={product.title} image={product.image}>
+        {product.description}
+      </Header>
+    </>
   );
 }
 

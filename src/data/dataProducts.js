@@ -17,7 +17,6 @@ import BraceletsSilver from "../assets/bracelet-product-5.jpg";
 import BraceletSilv from "../assets/bracelet-product-7.webp";
 import BraceletSilver from "../assets/bracelet-product-8.webp";
 
-
 const products = [
   {
     image: BraceletsRose,
@@ -60,93 +59,89 @@ const products = [
     categoryId: "duorings",
     title: "Watches is here",
     price: 109,
-  }, 
+  },
   {
     image: BraceletsWhite,
     productId: "watches",
     categoryId: "bracelets",
     title: "Snow White Silver Blacelet",
     price: 19,
-  }, 
+  },
   {
     image: BraceletsSilver,
     productId: "watches",
     categoryId: "bracelets",
     title: "Silver Classic Blacelet",
     price: 19,
-  }, 
+  },
   {
     image: BraceletSilv,
     productId: "watches",
     categoryId: "bracelets",
     title: "Silver Classic White Blacelet",
     price: 19,
-  }, 
+  },
   {
     image: BraceletSilver,
     productId: "watches",
     categoryId: "bracelets",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
-  }, 
+  },
   {
     image: NecklaceSil,
     productId: "watches",
     categoryId: "necklaces",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
-  }, 
+  },
   {
     image: NecklaceRose,
     productId: "watches",
     categoryId: "necklaces",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
-  }, 
+  },
   {
     image: NecklaceGolden,
     productId: "watches",
     categoryId: "necklaces",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
-  }, 
+  },
   {
     image: necklaceroseg,
     productId: "watches",
     categoryId: "necklaces",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
-  }, 
-  
+  },
+
   {
     image: necklakeGoldn,
     productId: "watches",
     categoryId: "necklaces",
     title: "golden necklace with designed diamonds",
     price: 19,
-  }, 
+  },
   {
     image: NecklaceChoker,
     productId: "watches",
     categoryId: "necklaces",
     title: "silver classic choker with diamonds",
     price: 19,
-  }, 
-  
+  },
 ];
 
 export function getProducts(categoryId) {
   if (categoryId) {
-    return products.filter(product => product.categoryId === categoryId);
+    return products.filter((product) => product.categoryId === categoryId);
   }
   return products;
-};
+}
 
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product => product.productId === productId)
+    products.findIndex((product) => product.productId === productId)
   ];
-};
-
-
+}
