@@ -11,9 +11,9 @@
 }
 
 .Nav a:hover {
-  background-color: white ;
-  color: black;
-/* }rgb(89, 52, 8);rgba(237, 213, 154, 0); */}
+  background-color: rgba(237, 213, 154, 0);
+  color: rgb(89, 52, 8);
+}
 
 @media (max-width: 600px) {
   .Nav {
