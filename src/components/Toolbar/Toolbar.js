@@ -3,7 +3,7 @@ import Nav from "../Nav/Nav";
 import NavToggle from "../Nav/NavToggle/NavToggle";
 import Logo from "../ui/Logo/Logo";
 import classes from "./Toolbar.module.css";
-
+import CartLink from "../CartLink/CartLink";
 function Toolbar({ toggleDrawer }) {
   return (
     <nav className={classes.Toolbar}>
@@ -11,6 +11,7 @@ function Toolbar({ toggleDrawer }) {
         <Logo />
         <Nav />
         <NavToggle callback={toggleDrawer} />
+        <CartLink />
       </div>
     </nav>
   );
