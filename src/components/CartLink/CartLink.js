@@ -11,4 +11,3 @@ export default function CartLink() {
     <NavLink to="/cart">Cart ({number})</NavLink>
   );
 }
-{/* <FontAwesomeIcon icon="fa-regular fa-cart-shopping" /> */}

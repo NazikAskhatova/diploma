@@ -18,7 +18,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchUser,{ type: "cart/restore" });
+    dispatch({ type: "cart/restore" });
 
   }, [dispatch]);
 
