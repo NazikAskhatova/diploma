@@ -3,8 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
-import Product from "./pages/Product";
-import NotFound from "./pages/NotFound";
+import Product from "./pages/Product/Product";
+// import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
 import About from "./pages/About";
 import Categories from "./pages/Categories";
@@ -22,7 +22,7 @@ function App() {
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<Category />} />
           <Route path="/about" element={<About />} />
-          <Route path="*" element={<NotFound />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
       </Layout>
     </div>

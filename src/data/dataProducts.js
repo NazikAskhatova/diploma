@@ -20,21 +20,21 @@ import BraceletSilver from "../assets/bracelet-product-8.webp";
 const products = [
   {
     image: BraceletsRose,
-    productId: "rings",
+    productId: "bracelet-rose",
     categoryId: "bracelets",
     title: "Pink Gold Heart Bracelet",
     price: 79,
   },
   {
     image: Earrings,
-    productId: "earrings",
+    productId: "earring-rose",
     categoryId: "designRings",
     title: "Earrings",
     price: 89,
   },
   {
     image: Bracelets,
-    productId: "bracelets",
+    productId: "bracelet-pink",
     categoryId: "bracelets",
     title: "Pink Gold Rosie Bracelet",
     price: 29,
@@ -48,70 +48,70 @@ const products = [
   },
   {
     image: Necklakes,
-    productId: "necklaces",
+    productId: "necklace-gold",
     categoryId: "all rings",
     title: "Necklakes is here",
     price: 99,
   },
   {
     image: Rings,
-    productId: "watches",
+    productId: "rings-silver",
     categoryId: "duorings",
     title: "Watches is here",
     price: 109,
   },
   {
     image: BraceletsWhite,
-    productId: "watches",
+    productId: "white-bracelet",
     categoryId: "bracelets",
     title: "Snow White Silver Blacelet",
     price: 19,
   },
   {
     image: BraceletsSilver,
-    productId: "watches",
+    productId: "bracelet-silver",
     categoryId: "bracelets",
     title: "Silver Classic Blacelet",
     price: 19,
   },
   {
     image: BraceletSilv,
-    productId: "watches",
+    productId: "classic-bracelet",
     categoryId: "bracelets",
     title: "Silver Classic White Blacelet",
     price: 19,
   },
   {
     image: BraceletSilver,
-    productId: "watches",
+    productId: "diamond-bracelet",
     categoryId: "bracelets",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
   },
   {
     image: NecklaceSil,
-    productId: "watches",
+    productId: "white-silver-bracelet",
     categoryId: "necklaces",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
   },
   {
     image: NecklaceRose,
-    productId: "watches",
+    productId: "diamonds-silver-bracelet",
     categoryId: "necklaces",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
   },
   {
     image: NecklaceGolden,
-    productId: "watches",
+    productId: "diamonds-bracelet-white",
     categoryId: "necklaces",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
   },
   {
     image: necklaceroseg,
-    productId: "watches",
+    productId: "silver-diamonds-bracelet",
     categoryId: "necklaces",
     title: "Silver Blacelet With White Diamonds",
     price: 19,
@@ -119,14 +119,14 @@ const products = [
 
   {
     image: necklakeGoldn,
-    productId: "watches",
+    productId: "golden-necklace",
     categoryId: "necklaces",
     title: "golden necklace with designed diamonds",
     price: 19,
   },
   {
     image: NecklaceChoker,
-    productId: "watches",
+    productId: "silver-necklace",
     categoryId: "necklaces",
     title: "silver classic choker with diamonds",
     price: 19,
@@ -135,13 +135,16 @@ const products = [
 
 export function getProducts(categoryId) {
   if (categoryId) {
-    return products.filter((product) => product.categoryId === categoryId);
+    return products.filter(product => product.categoryId === categoryId);    
   }
+
   return products;
 }
 
 export function getProduct(productId) {
   return products[
-    products.findIndex((product) => product.productId === productId)
+    products.findIndex(
+      product =>  product.productId === productId
+    )
   ];
 }
