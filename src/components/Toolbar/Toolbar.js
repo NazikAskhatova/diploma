@@ -1,9 +1,10 @@
 import React from "react";
-import Nav from "../Nav/Nav";
 import NavToggle from "../Nav/NavToggle/NavToggle";
 import Logo from "../ui/Logo/Logo";
 import classes from "./Toolbar.module.css";
 import CartLink from "../CartLink/CartLink";
+import Nav from "../Nav/Nav";
+
 function Toolbar({ toggleDrawer }) {
   return (
     <nav className={classes.Toolbar}>
@@ -16,5 +17,4 @@ function Toolbar({ toggleDrawer }) {
     </nav>
   );
 }
-
 export default Toolbar;

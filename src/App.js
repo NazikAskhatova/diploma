@@ -9,8 +9,17 @@ import Products from "./pages/Products";
 import About from "./pages/About";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
+import Cart from "./pages/Cart";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch({ type: "cart/restore" });
+  }, []);
+
   return (
     <div className="App">
       <Layout>
