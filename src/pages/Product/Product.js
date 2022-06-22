@@ -20,7 +20,7 @@ function Product() {
         <div>
           <h2>{product.title}</h2>
           <p>{product.title}</p>
-          <CartButton className={classes.cartButton} productId={params.productId} />
+          <CartButton className={classes.CartButton} productId={params.productId} />
         </div>
       </div>
     </>
