@@ -1,12 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
-// import Header from "./components/Header/Header";
-// import Nav from "./components/Nav/Nav";
-// import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
-import Product from "./pages/Product/Product";
+import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
 import About from "./pages/About";

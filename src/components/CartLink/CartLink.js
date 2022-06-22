@@ -1,13 +1,12 @@
-import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+import { NavLink } from "react-router-dom";
 
-export default function CartButton({ productId }) {
-  const dispatch = useDispatch();
-
-  function onAddToCart() {
-    dispatch({ type: 'cart/add', payload: productId });
-  }
+export default function CartLink() {
+  const number = useSelector(store => {
+    return Object.values(store.cart.items).reduce((sum, number) => sum + number, 0);
+  });
 
   return (
-    <button className="CartButton" onClick={onAddToCart}>Add to card</button>
+    <NavLink to="/cart">Cart ({number})</NavLink>
   );
 }

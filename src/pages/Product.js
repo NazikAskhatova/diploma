@@ -1,7 +1,8 @@
-import React from "react";
 import { useParams } from "react-router-dom";
-import Header from "../../components/Header/Header";
-import { getProduct } from "../../data/dataProducts";
+import CartButton from "../components/CartButton/CartButton";
+import Header from "../components/Header/Header";
+import { getProduct } from "../data/dataProducts";
+
 function Product() {
   const params = useParams();
   const product = getProduct(params.productId);
@@ -13,8 +14,9 @@ function Product() {
   return (
     <>
       <Header title={product.title} image={product.image}>
-        {product.description}
+        price={product.price}
       </Header>
+      <CartButton productId={params.productId} />
     </>
   );
 }
