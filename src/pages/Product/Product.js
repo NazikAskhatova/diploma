@@ -3,6 +3,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import CartButton from "../../components/CartButton/CartButton";
 import { getProduct } from "../../data/dataProducts";
+import classes from "./Product.module.css"
 
 function Product() {
   const params = useParams();
@@ -14,12 +15,12 @@ function Product() {
 
   return (
     <>
-      <div className="Product">
+      <div className={classes.Product}>
         <img src={product.image} alt={product.title} />
         <div>
           <h2>{product.title}</h2>
           <p>{product.title}</p>
-          <CartButton productId={params.productId} />
+          <CartButton className={classes.cartButton} productId={params.productId} />
         </div>
       </div>
     </>
