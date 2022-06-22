@@ -1,5 +1,5 @@
-import Header from "../../components/Header/Header";
-import image from "../../assets/products-6.jpg";
+// import Header from "../../components/Header/Header";
+// import image from "../../assets/products-6.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../../data/dataProducts";
 import { Link } from "react-router-dom";
@@ -18,7 +18,7 @@ function Cart() {
 
       return (
         <>
-        <div className={classes.Cart}>
+        <div>
           <Link to="">{product.title}</Link> {items[product.productId]} ${product.price * items[product.productId]}
 
           <button className={classes.CartButton} onClick={() => dispatch({ type: "cart/decrement", payload: product.productId })}>-</button>
@@ -35,17 +35,16 @@ function Cart() {
 
 
   return (
-    <>
-      <Header
-        title="Your Shopping Cart"
-        image={image}>
+    <div className={classes.Cart}>
+      <div>
         Please review items in your cart.
-      </Header>
-      <div className={classes.Cart}>
+      </div>
+      <div>
         {output}
+
         Total: ${total}
       </div>
-    </>
+    </div>
   );
 }
 
