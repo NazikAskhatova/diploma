@@ -28,6 +28,8 @@
     border: white;
     border-radius: 5px;
     cursor: pointer;
+    width: 120px;
+    height: 60px;
   }
   
   
