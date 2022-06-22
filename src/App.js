@@ -18,9 +18,10 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch({ type: "cart/restore" });
+    dispatch(fetchUser,{ type: "cart/restore" });
 
-  }, []);
+  }, [dispatch]);
+
 
   return (
     <div className="App">

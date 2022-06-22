@@ -13,3 +13,4 @@ function ProductItem({ product }) {
 }
 
 export default ProductItem;
+
