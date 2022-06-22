@@ -1,0 +1,19 @@
+.Cart {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+  }
+
+.CartButton {
+    font-size: 1rem;
+    font-family: serif;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: white;
+    background-color: #5a3702;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+}
