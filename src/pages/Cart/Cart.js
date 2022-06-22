@@ -1,5 +1,4 @@
-// import Header from "../../components/Header/Header";
-// import image from "../../assets/products-6.jpg";
+
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../../data/dataProducts";
 import { Link } from "react-router-dom";

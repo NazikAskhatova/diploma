@@ -10,14 +10,16 @@ import About from "./pages/About";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Cart from "./pages/Cart/Cart";
-import { useEffect } from "react";
 import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+
 
 function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch({ type: "cart/restore" });
+
   }, []);
 
   return (
