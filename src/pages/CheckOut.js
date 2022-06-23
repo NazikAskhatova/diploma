@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/dataProducts";
 import { Link, useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
-
+import React from "react";
 
 function CheckOut() {
   const items = useSelector(store => store.cart.items);
@@ -32,7 +32,8 @@ function CheckOut() {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    dispatch(checkout(Object.fromEntries(formData.entries())));
+    const order = { items: items, ...Object.fromEntries(formData.entries()) };
+    dispatch(checkout(order));
     navigate('/');
   }
 
@@ -41,7 +42,7 @@ function CheckOut() {
       <div>
         Please review items in your cart.
       </div>
-      <div>
+      <div title="Checkout">
         {output}
         <hr />
         Total: ${total}
