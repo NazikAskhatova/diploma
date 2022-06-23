@@ -42,6 +42,7 @@ function Cart() {
         {output}
 
         Total: ${total}
+        <Link to="/checkout"/>
       </div>
     </div>
   );
