@@ -16,7 +16,7 @@
   
   .CartButton:after {
     content: "";
-    background-color: rgb(232, 171, 128);
+    background-color: rgb(226, 166, 83);
     width: 100%;
     z-index: -1;
     position: absolute;
