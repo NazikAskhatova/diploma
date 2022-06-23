@@ -1,18 +1,19 @@
+import React from "react";
+
 export default function Auth() {
     return (
-        <form>
-            <label >
+        <form className="Auth">
+               <label>
                 Email:
-                <input type="text"/>
+                <input type="email" name="email" />
             </label>
             <label>
-                Email:
-                <input type="text"/>
+                Password:
+                <input type="password" name="password" />
             </label>
-            <button>
 
-            </button>
-            <button></button>
+            <button>Sign in</button>
+            <button>Sign up</button>
         </form>
     )
 }
