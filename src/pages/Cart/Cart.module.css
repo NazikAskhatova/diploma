@@ -5,6 +5,7 @@
   }
 
   .CartButton {
+    text-decoration: none;
     font-size: 16px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -12,6 +13,7 @@
     outline: 0;
     border: .1px solid black;
     cursor: pointer;
+    color: black;
     position: relative;
     background-color: rgba(0, 0, 0, 0);
     user-select: none;
@@ -20,9 +22,10 @@
     margin: .5rem;
   }
   
+  
   .CartButton:after {
     content: "";
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(226, 166, 83) ;
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -52,7 +55,7 @@
     vertical-align: -1px;
   }
   
-  .QuantitySelector div{
+  .QuantitySelector div {
     display: inline-block;
     padding: 5px 9px;
     cursor: pointer;

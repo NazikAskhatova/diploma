@@ -18,7 +18,7 @@ function Cart() {
 
       return (
         <>
-        <div >
+        <div className={classes.Cart}>
           <Link to="">{product.title}</Link> {items[product.productId]} ${product.price * items[product.productId]}
         <div className={classes.QuantitySelector}>
    <button className={classes.Current} onClick={() => dispatch({ type: "cart/decrement", payload: product.productId })}>-</button>
@@ -26,7 +26,7 @@ function Cart() {
           <button className={classes.Current} onClick={() => dispatch({ type: "cart/increment", payload: product.productId })}>+</button>
          </div>
          
-          <button className={classes.anButton} onClick={() => dispatch({ type: "cart/delete", payload: product.productId })}><span>Delete</span><span>Delete</span></button>
+          <button className={classes.CartButton} onClick={() => dispatch({ type: "cart/delete", payload: product.productId })}>Delete</button>
           
           
           
@@ -46,13 +46,13 @@ function Cart() {
   return (
     <div className={classes.Cart}>
       <div>
-        Please review items in your cart.
+        Products in your cart
       </div>
       <div>
        {output}
        {/* {outputAmount} */}
         Total: ${total}
-        <Link to="/checkout">Checkout</Link>
+        <Link className={classes.CartButton} to="/checkout">Checkout</Link>
       </div>
     </div>
   );
