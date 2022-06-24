@@ -131,6 +131,7 @@ const products = [
     title: "silver classic choker with diamonds",
     price: 19,
   },
+  
 ];
 
 export function getProducts(categoryId) {
