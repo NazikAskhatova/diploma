@@ -1,38 +1,49 @@
-
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../../data/dataProducts";
 import { Link } from "react-router-dom";
 import classes from "./Cart.module.css";
 import { increment, decrement, remove } from "../../redux/cartSlice";
 function Cart() {
-  const items = useSelector(store => store.cart.items);
+  const items = useSelector((store) => store.cart.items);
   const dispatch = useDispatch();
   const products = getProducts();
 
   let total = 0;
   let output = products
-  // let outputAmount = 0
-    .filter(product => items[product.productId])
-    .map(product => {
+    // let outputAmount = 0
+    .filter((product) => items[product.productId])
+    .map((product) => {
       total += product.price * items[product.productId];
 
       return (
         <>
-        <div className={classes.Cart}>
-          <Link to="">{product.title}</Link> {items[product.productId]} ${product.price * items[product.productId]}
-        <div className={classes.QuantitySelector}>
-   <button className={classes.Current} onClick={() => dispatch(decrement(product.productId))}>-</button>
-         <input className={classes.Current} />
-          <button className={classes.Current} onClick={() => dispatch(increment(product.productId))}>+</button>
-         </div>
-         
-          <button className={classes.CartButton} onClick={() => dispatch(remove(product.productId))}>Delete</button>
-          
-          
-   
-{/*        
+          <div className={classes.Cart}>
+            <Link to="">{product.title}</Link> {items[product.productId]} $
+            {product.price * items[product.productId]}
+            <div className={classes.QuantitySelector}>
+              <button
+                className={classes.Current}
+                onClick={() => dispatch(decrement(product.productId))}
+              >
+                -
+              </button>
+              <input className={classes.Current} />
+              <button
+                className={classes.Current}
+                onClick={() => dispatch(increment(product.productId))}
+              >
+                +
+              </button>
+            </div>
+            <button
+              className={classes.CartButton}
+              onClick={() => dispatch(remove(product.productId))}
+            >
+              Delete
+            </button>
+            {/*        
         <button className={classes.anButton}></button> */}
-         </div> 
+          </div>
         </>
       );
     });
@@ -41,17 +52,16 @@ function Cart() {
     output = "No items in the cart.";
   }
 
-
   return (
     <div className={classes.Cart}>
+      <div>Products in your cart</div>
       <div>
-        Products in your cart
-      </div>
-      <div>
-       {output}
-       {/* {outputAmount} */}
+        {output}
+        {/* {outputAmount} */}
         Total: ${total}
-        <Link className={classes.CartButton} to="/checkout">Checkout</Link>
+        <Link className={classes.CartButton} to="/checkout">
+          Checkout
+        </Link>
       </div>
     </div>
   );
