@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../../data/dataProducts";
 import { Link } from "react-router-dom";
 import classes from "./Cart.module.css";
-
+import { increment, decrement, remove } from "../../redux/cartSlice";
 function Cart() {
   const items = useSelector(store => store.cart.items);
   const dispatch = useDispatch();
@@ -21,13 +21,12 @@ function Cart() {
         <div className={classes.Cart}>
           <Link to="">{product.title}</Link> {items[product.productId]} ${product.price * items[product.productId]}
         <div className={classes.QuantitySelector}>
-   <button className={classes.Current} onClick={() => dispatch({ type: "cart/decrement", payload: product.productId })}>-</button>
-         <input className={classes.Current}/>
-          <button className={classes.Current} onClick={() => dispatch({ type: "cart/increment", payload: product.productId })}>+</button>
+   <button className={classes.Current} onClick={() => dispatch(decrement(product.productId))}>-</button>
+         <input className={classes.Current} />
+          <button className={classes.Current} onClick={() => dispatch(increment(product.productId))}>+</button>
          </div>
          
-          <button className={classes.CartButton} onClick={() => dispatch({ type: "cart/delete", payload: product.productId })}>Delete</button>
-          
+          <button className={classes.CartButton} onClick={() => dispatch(remove(product.productId))}>Delete</button>
           
           
    
