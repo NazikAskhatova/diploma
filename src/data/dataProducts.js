@@ -4,7 +4,7 @@ import weddingRings from "../assets/products-6.jpg";
 
 
 
-// import Earrings from "../assets/earrings-category";
+
 import BoldEar from "../assets/Bold_Hoops.jpg";
 import MiniHoops from "../assets/DailyMiniHoops.jpg";
 import BlockLargeHoops from "../assets/BlockLargeHoops.jpg";
