@@ -1,6 +1,5 @@
-import Rings from "../assets/products-2.jpg";
 
-import weddingRings from "../assets/products-6.jpg";
+import Rings from "../assets/.jpg";
 
 
 
@@ -20,6 +19,15 @@ import opalNecklace from "../assets/opalNecklace.jpg";
 import ChainNeck from "../assets/chain_Necklace.jpg";
 import LotusN from "../assets/lotusNecklace.jpg";
 import SQRN from "../assets/sqr-necklace.jpg";
+
+import BlockR from "../assets/block-ring.jpg";
+import BrainedR from "../assets/brained-r.jpg";
+import Charlotte from "../assets/charlotte-ring.jpg";
+import coupleR from "../assets/couple-rings.jpg";
+import diamondring from "../assets/diamond-ring.jpg";
+import SignetR from "../assets/signed-ring.jpg";
+
+
 
 
 import BraceletSilv from "../assets/bracelet-product-7.webp";
@@ -128,22 +136,49 @@ const products = [
     price: 29,
   },
 
-
-
-
-
-
-
-
-
-
   {
-    image: weddingRings,
-    productId: "wedding-rings",
+    image: BlockR,
+    productId: "block-rings",
     categoryId: "rings",
-    title: "Rings",
+    title: "Block Rings",
     price: 69,
   },
+  {
+    image: BrainedR,
+    productId: "barined-rings",
+    categoryId: "rings",
+    title: "Brained rings",
+    price: 69,
+  },
+  {
+    image: Charlotte,
+    productId: "charlotte-rings",
+    categoryId: "rings",
+    title: "charlotte rings",
+    price: 69,
+  },
+  {
+    image: coupleR,
+    productId: "couple-rings",
+    categoryId: "rings",
+    title: "Couple Rings",
+    price: 69,
+  },
+  {
+    image: diamondring,
+    productId: "diamond-rings",
+    categoryId: "rings",
+    title: "diamond Ring",
+    price: 69,
+  },
+  {
+    image: SignetR,
+    productId: "signet-rings",
+    categoryId: "rings",
+    title: "signet Ring",
+    price: 69,
+  },
+  
   {
     image: Necklakes,
     productId: "necklace-gold",
