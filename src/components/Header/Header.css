@@ -33,7 +33,7 @@ p {
 .section-cont {
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 78vh;
+  min-height: 80vh;
   background-color: aliceblue;
   display: flex;
   flex-direction: column;

@@ -9,7 +9,6 @@ function Header({ image, title, children }) {
 
   return (
     <header className="Header">
-      {/* <img src={image} /> */}
       <section style={style} className="section-cont">
         <h1 className="first-art">{title}</h1>
         <p className="second-art">{children}</p>

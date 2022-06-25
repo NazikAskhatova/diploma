@@ -3,8 +3,6 @@
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  z-index: 90;
 }
 .Toolbar .container {
   display: flex;
@@ -13,7 +11,7 @@
 }
 
 .Toolbar a {
-  display: block;
+  display: inline-block;
   padding: 1rem 1.5rem;
   color: black;
   font-size: 1.2rem;

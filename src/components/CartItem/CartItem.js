@@ -12,7 +12,7 @@ export default function CartItem({ product, actions, quantity }) {
         <img src={product.image} alt={product.title} />
       </div>
       <div className={classes.title}>
-        <Link to="">{product.title}</Link>
+        <Link to="/productId">{product.title}</Link>
       </div>
       <div className={classes.quantity}>
         {actions ? <button onClick={() => dispatch(decrement(product.productId))}>-</button> : null}

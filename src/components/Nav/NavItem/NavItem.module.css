@@ -1,14 +1,16 @@
 .NavItem a {
-    display: block;
+
     padding: 1rem 1.5rem;
     font-size: 1.2rem;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     color: black;
   }
+
   .NavItem .active {
    color: rgb(66, 35, 8);
   }
+
   
   @media (max-width: 620px) {
     .NavItem a {
