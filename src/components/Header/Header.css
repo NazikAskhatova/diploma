@@ -18,20 +18,22 @@ p {
   text-align: center;
 }
 .first-art {
-  font-size: 3.2rem;
+  font-size: 4.9rem;
   color: white;
+  padding-left: 35rem;
 }
 .second-art {
   color: rgb(248, 207, 148);
   font-size: bolder;
   text-transform: uppercase;
   font-size: 1.6rem;
+  padding-left: 40rem;
 }
 
 .section-cont {
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 73vh;
+  min-height: 78vh;
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
