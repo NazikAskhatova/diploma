@@ -2,11 +2,11 @@ import designJew from "../assets/products-5.jpg";
 import Bracelets from "../assets/categories-3.jpg";
 import weddingJewerly from "../assets/products-4.jpg";
 import Necklakes from "../assets/products-4.jpg";
-import Gifts from "../assets/products-3.jpg";
+import Earrings from "../assets/earrings-category-vers.jpg";
 
 const categories = [
   {
-    image: Gifts,
+    image: Earrings,
     categoryId: "earrings",
     title: "Earrings",
     price: 99,

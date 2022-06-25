@@ -1,6 +1,17 @@
 import Rings from "../assets/products-2.jpg";
-import Earrings from "../assets/products-3.jpg";
+
 import weddingRings from "../assets/products-6.jpg";
+
+
+
+// import Earrings from "../assets/earrings-category";
+import BoldEar from "../assets/Bold_Hoops.jpg";
+import MiniHoops from "../assets/DailyMiniHoops.jpg";
+import BlockLargeHoops from "../assets/BlockLargeHoops.jpg";
+import SapphireHoops from "../assets/SapphireHoops_earrings.jpg";
+import PearlHoops from "../assets/hoops_earrings_pearl.jpg";
+import DMSHoops from "../assets/DomeSpheres_hoops.jpg";
+
 
 import Necklakes from "../assets/products-7.jpg";
 import NecklaceSil from "../assets/necklace-product-1.jpg";
@@ -10,35 +21,62 @@ import NecklaceGolden from "../assets/necklace-product-5.webp";
 import necklakeGoldn from "../assets/necklace-product-8.jpg";
 import necklaceroseg from "../assets/necklace-product-9.jpg";
 
-import Bracelets from "../assets/bracelet-product-1.webp";
-import BraceletsRose from "../assets/bracelet-product-3.jpg";
-import BraceletsWhite from "../assets/bracelet-collection.jpg";
-import BraceletsSilver from "../assets/bracelet-product-5.jpg";
+
 import BraceletSilv from "../assets/bracelet-product-7.webp";
 import BraceletSilver from "../assets/bracelet-product-8.webp";
 
+
+
 const products = [
   {
-    image: BraceletsRose,
-    productId: "bracelet-rose",
+    image: SapphireHoops,
+    productId: "sapphire-hoops-golden",
     categoryId: "bracelets",
-    title: "Pink Gold Heart Bracelet",
+    title: "sapphire hoops",
     price: 79,
   },
   {
-    image: Earrings,
-    productId: "earring-rose",
+    image: DMSHoops,
+    productId: "dome-sapphire-hoops",
     categoryId: "earrings",
-    title: "Earrings",
+    title: "Dome Sapphere Hoops",
+    price: 79,
+  },
+  {
+    image: BoldEar,
+    productId: "bold-hoops-earrings",
+    categoryId: "earrings",
+    title: "Bold Hoops Golden Metall",
+    price: 79,
+  },
+  {
+    image: MiniHoops,
+    productId: "daily-mini-hoops",
+    categoryId: "earrings",
+    title: "Daily Mini Golden Hoops",
+    price: 79,
+  },
+  {
+    image: BlockLargeHoops,
+    productId: "block-large-hoops",
+    categoryId: "earrings",
+    title: "Block Large Hoops",
     price: 89,
   },
   {
-    image: Bracelets,
-    productId: "bracelet-pink",
-    categoryId: "bracelets",
-    title: "Pink Gold Rosie Bracelet",
+    image: PearlHoops,
+    productId: "pearl-hoops",
+    categoryId: "earrings",
+    title: "pearl hoops",
     price: 29,
   },
+  // {
+  //   image: Bracelets,
+  //   productId: "bracelet-pink",
+  //   categoryId: "earrings",
+  //   title: "Pink Gold Rosie Bracelet",
+  //   price: 29,
+  // },
   {
     image: weddingRings,
     productId: "wedding-rings",
@@ -60,20 +98,20 @@ const products = [
     title: "Watches",
     price: 109,
   },
-  {
-    image: BraceletsWhite,
-    productId: "white-bracelet",
-    categoryId: "bracelets",
-    title: "Snow White Silver Blacelet",
-    price: 19,
-  },
-  {
-    image: BraceletsSilver,
-    productId: "bracelet-silver",
-    categoryId: "bracelets",
-    title: "Silver Classic Blacelet",
-    price: 19,
-  },
+  // {
+  //   image: BraceletsWhite,
+  //   productId: "white-bracelet",
+  //   categoryId: "bracelets",
+  //   title: "Snow White Silver Blacelet",
+  //   price: 19,
+  // },
+  // {
+  //   image: BraceletsSilver,
+  //   productId: "bracelet-silver",
+  //   categoryId: "bracelets",
+  //   title: "Silver Classic Blacelet",
+  //   price: 19,
+  // },
   {
     image: BraceletSilv,
     productId: "classic-bracelet",
@@ -131,6 +169,7 @@ const products = [
     title: "silver classic choker with diamonds",
     price: 19,
   },
+
 
 ];
 
