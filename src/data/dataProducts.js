@@ -13,13 +13,13 @@ import PearlHoops from "../assets/hoops_earrings_pearl.jpg";
 import DMSHoops from "../assets/DomeSpheres_hoops.jpg";
 
 
-import Necklakes from "../assets/products-7.jpg";
-import NecklaceSil from "../assets/necklace-product-1.jpg";
-import NecklaceRose from "../assets/necklace-product-3.webp";
-import NecklaceChoker from "../assets/necklace-product-4.jpg";
-import NecklaceGolden from "../assets/necklace-product-5.webp";
-import necklakeGoldn from "../assets/necklace-product-8.jpg";
-import necklaceroseg from "../assets/necklace-product-9.jpg";
+import Necklakes from "../assets/TerraNecklace.jpg";
+import NecklaceVarme from "../assets/Necklace-varme.jpg";
+import PearlNeck from "../assets/Pearl_neck.jpg";
+import opalNecklace from "../assets/opalNecklace.jpg";
+import ChainNeck from "../assets/chain_Necklace.jpg";
+import LotusN from "../assets/lotusNecklace.jpg";
+import SQRN from "../assets/sqr-necklace.jpg";
 
 
 import BraceletSilv from "../assets/bracelet-product-7.webp";
@@ -78,6 +78,66 @@ const products = [
   //   price: 29,
   // },
   {
+    image: Necklakes,
+    productId: "terra-necklace",
+    categoryId: "necklaces",
+    title: "Terra Necklace",
+    price: 29,
+  },
+  {
+    image: NecklaceVarme,
+    productId: "varmelli-necklace",
+    categoryId: "necklaces",
+    title: "Varmelli Necklace",
+    price: 29,
+  },
+  {
+    image:  SQRN,
+    productId: "square-necklace",
+    categoryId: "necklaces",
+    title: "Square Necklace",
+    price: 29,
+  },
+  {
+    image: LotusN,
+    productId: "lotus-necklace",
+    categoryId: "necklaces",
+    title: "Lotus Aqua Necklace",
+    price: 29,
+  },
+
+  {
+    image: PearlNeck,
+    productId: "pearl-necklace",
+    categoryId: "necklaces",
+    title: "Pearl Necklace",
+    price: 29,
+  },
+  {
+    image: opalNecklace,
+    productId: "opal-necklace",
+    categoryId: "necklaces",
+    title: "Opal Necklace",
+    price: 29,
+  },
+  {
+    image: ChainNeck,
+    productId: "chain-necklace",
+    categoryId: "necklaces",
+    title: "chain Necklace",
+    price: 29,
+  },
+
+
+
+
+
+
+
+
+
+
+  {
     image: weddingRings,
     productId: "wedding-rings",
     categoryId: "rings",
@@ -126,49 +186,12 @@ const products = [
     title: "Silver Blacelet With White Diamonds",
     price: 19,
   },
-  {
-    image: NecklaceSil,
-    productId: "white-silver-bracelet",
-    categoryId: "necklaces",
-    title: "Silver Blacelet With White Diamonds",
-    price: 19,
-  },
-  {
-    image: NecklaceRose,
-    productId: "diamonds-silver-bracelet",
-    categoryId: "necklaces",
-    title: "Silver Blacelet With White Diamonds",
-    price: 19,
-  },
-  {
-    image: NecklaceGolden,
-    productId: "diamonds-bracelet-white",
-    categoryId: "necklaces",
-    title: "Silver Blacelet With White Diamonds",
-    price: 19,
-  },
-  {
-    image: necklaceroseg,
-    productId: "silver-diamonds-bracelet",
-    categoryId: "necklaces",
-    title: "Silver Blacelet With White Diamonds",
-    price: 19,
-  },
+ 
 
-  {
-    image: necklakeGoldn,
-    productId: "golden-necklace",
-    categoryId: "necklaces",
-    title: "golden necklace with designed diamonds",
-    price: 19,
-  },
-  {
-    image: NecklaceChoker,
-    productId: "silver-necklace",
-    categoryId: "necklaces",
-    title: "silver classic choker with diamonds",
-    price: 19,
-  },
+  
+
+
+  
 
 
 ];

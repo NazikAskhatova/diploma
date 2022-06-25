@@ -1,7 +1,7 @@
 import designJew from "../assets/products-5.jpg";
 import Bracelets from "../assets/categories-3.jpg";
 import weddingJewerly from "../assets/products-4.jpg";
-import Necklakes from "../assets/products-4.jpg";
+import Necklaces from "../assets/TerraNecklace-v.jpg";
 import Earrings from "../assets/earrings-category-vers.jpg";
 
 const categories = [
@@ -26,9 +26,9 @@ const categories = [
     description: "Find the best gift for your Valentine!",
   },
   {
-    image: Necklakes,
+    image: Necklaces,
     categoryId: "necklaces",
-    title: "Necklakes",
+    title: "Necklaces",
     description: "Find the best rings for your Valentine",
   },
   {
