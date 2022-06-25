@@ -31,7 +31,7 @@ const products = [
   {
     image: SapphireHoops,
     productId: "sapphire-hoops-golden",
-    categoryId: "bracelets",
+    categoryId: "earrings",
     title: "sapphire hoops",
     price: 79,
   },
