@@ -1,4 +1,4 @@
-import designJew from "../assets/products-5.jpg";
+import Rings from "../assets/diamond-rings.jpg";
 import Bracelets from "../assets/categories-3.jpg";
 import weddingJewerly from "../assets/products-4.jpg";
 import Necklaces from "../assets/TerraNecklace-v.jpg";
@@ -13,7 +13,7 @@ const categories = [
     description: "There you can find our all special rings",
   },
   {
-    image: designJew,
+    image: Rings,
     categoryId: "rings",
     title: "Rings",
     price: 119,
