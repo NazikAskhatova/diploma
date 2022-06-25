@@ -28,7 +28,7 @@ const products = [
   {
     image: Earrings,
     productId: "earring-rose",
-    categoryId: "designRings",
+    categoryId: "earrings",
     title: "Earrings",
     price: 89,
   },
@@ -42,22 +42,22 @@ const products = [
   {
     image: weddingRings,
     productId: "wedding-rings",
-    categoryId: "wedding",
-    title: "Wedding Rings",
+    categoryId: "rings",
+    title: "Rings",
     price: 69,
   },
   {
     image: Necklakes,
     productId: "necklace-gold",
     categoryId: "all rings",
-    title: "Necklakes is here",
+    title: "Necklakes",
     price: 99,
   },
   {
     image: Rings,
     productId: "rings-silver",
-    categoryId: "duorings",
-    title: "Watches is here",
+    categoryId: "rings",
+    title: "Watches",
     price: 109,
   },
   {
@@ -131,7 +131,7 @@ const products = [
     title: "silver classic choker with diamonds",
     price: 19,
   },
-  
+
 ];
 
 export function getProducts(categoryId) {

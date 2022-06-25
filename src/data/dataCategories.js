@@ -6,10 +6,18 @@ import Gifts from "../assets/products-3.jpg";
 
 const categories = [
   {
-    image: Necklakes,
-    categoryId: "necklaces",
-    title: "Necklakes",
-    description: "Find the best rings for your Valentine",
+    image: Gifts,
+    categoryId: "earrings",
+    title: "Earrings",
+    price: 99,
+    description: "There you can find our all special rings",
+  },
+  {
+    image: designJew,
+    categoryId: "rings",
+    title: "Rings",
+    price: 119,
+    description: "You can find all our special bracellets here",
   },
   {
     image: Bracelets,
@@ -18,25 +26,18 @@ const categories = [
     description: "Find the best gift for your Valentine!",
   },
   {
+    image: Necklakes,
+    categoryId: "necklaces",
+    title: "Necklakes",
+    description: "Find the best rings for your Valentine",
+  },
+  {
     image: weddingJewerly,
-    categoryId: "wedding",
-    title: "Wedding Jewerly",
+    categoryId: "watches",
+    title: "Watches",
     description: "Our all best art for your best day",
   },
-  {
-    image: designJew,
-    categoryId: "designJew",
-    title: "Special design for your art",
-    price: 119,
-    description: "You can find all our special bracellets here",
-  },
-  {
-    image: Gifts,
-    categoryId: "all rings",
-    title: "Our gifts",
-    price: 99,
-    description: "There you can find our all special rings",
-  },
+  
 ];
 
 export function getCategories() {
