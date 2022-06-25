@@ -41,3 +41,15 @@ p {
   background-size: cover;
   padding: 0;
 }
+
+@media (max-width: 900px) {
+  .Header  {
+   overflow: hidden;
+  }
+  .Header h1 {
+    font-size: 1.8rem;
+  }
+  .Header p {
+    font-size: .8rem;
+  }
+}
