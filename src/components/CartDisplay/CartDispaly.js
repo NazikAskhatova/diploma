@@ -14,7 +14,8 @@ function CartDisplay({ actions }) {
       total += product.price * items[product.productId];
 
       return (
-        <CartItem
+        <CartItem 
+        className="Cart"
           product={product}
           quantity={items[product.productId]}
           key={product.productId}

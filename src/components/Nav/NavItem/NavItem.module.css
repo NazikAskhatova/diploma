@@ -1,21 +1,20 @@
 .NavItem a {
     display: block;
     padding: 1rem 1.5rem;
-    color: white;
     font-size: 1.2rem;
     text-decoration: none;
     border-bottom: 3px solid transparent;
   }
   .NavItem .active {
-    border-color:rgb(248, 207, 148);
+   color: rgb(66, 35, 8);
   }
-  .NavItem a:hover {
-    background-color: rgba(228, 211, 137, 0.1);
+  .NavItem .hover {
+   background-color: black;
   }
 
   .NavItem a:hover {
-    background-color: rgba(155, 102, 22, 0.1);
-  }
+    background-color: transparent;
+  } 
   
   @media (max-width: 620px) {
     .NavItem a {
