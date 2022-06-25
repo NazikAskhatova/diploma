@@ -78,9 +78,7 @@ function Cart() {
   return (
     <>
       <Header
-        title="Your Shopping Cart"
         image={image}>
-        Please review items in your cart.
       </Header>
 
       <CartDisplay actions />
