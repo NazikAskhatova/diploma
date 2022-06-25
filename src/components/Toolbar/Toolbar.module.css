@@ -1,7 +1,10 @@
 .Toolbar {
-  background-color: rgb(158, 93, 47);
-  color: rgb(255, 255, 255);
-  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 90;
 }
 .Toolbar .container {
   display: flex;
@@ -12,7 +15,7 @@
 .Toolbar a {
   display: block;
   padding: 1rem 1.5rem;
-  color: white;
+  color: black;
   font-size: 1.2rem;
   text-decoration: none;
 }
