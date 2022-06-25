@@ -1,8 +1,10 @@
 
-import Rings from "../assets/.jpg";
-
-
-
+import BlockR from "../assets/block-ring.jpg";
+import BrainedR from "../assets/brained-r.jpg";
+import Charlotte from "../assets/charlotte-ring.jpg";
+import coupleR from "../assets/couple-rings.jpg";
+import diamondring from "../assets/diamond-ring.jpg";
+import SignetR from "../assets/signed-ring.jpg";
 
 import BoldEar from "../assets/Bold_Hoops.jpg";
 import MiniHoops from "../assets/DailyMiniHoops.jpg";
@@ -10,7 +12,6 @@ import BlockLargeHoops from "../assets/BlockLargeHoops.jpg";
 import SapphireHoops from "../assets/SapphireHoops_earrings.jpg";
 import PearlHoops from "../assets/hoops_earrings_pearl.jpg";
 import DMSHoops from "../assets/DomeSpheres_hoops.jpg";
-
 
 import Necklakes from "../assets/TerraNecklace.jpg";
 import NecklaceVarme from "../assets/Necklace-varme.jpg";
@@ -20,18 +21,13 @@ import ChainNeck from "../assets/chain_Necklace.jpg";
 import LotusN from "../assets/lotusNecklace.jpg";
 import SQRN from "../assets/sqr-necklace.jpg";
 
-import BlockR from "../assets/block-ring.jpg";
-import BrainedR from "../assets/brained-r.jpg";
-import Charlotte from "../assets/charlotte-ring.jpg";
-import coupleR from "../assets/couple-rings.jpg";
-import diamondring from "../assets/diamond-ring.jpg";
-import SignetR from "../assets/signed-ring.jpg";
+import TopazB from "../assets/topaz-brac.jpg";
+import curbBrac from "../assets/curb-brac.jpg";
+import DualB from "../assets/dual-bracel.jpg";
+import boldB from "../assets/bold-brac.jpg";
+import ChainB from "../assets/chain-brac.jpg";
+import boldBang from "../assets/bold_bangle_bracelet.jpg";
 
-
-
-
-import BraceletSilv from "../assets/bracelet-product-7.webp";
-import BraceletSilver from "../assets/bracelet-product-8.webp";
 
 
 
@@ -186,13 +182,7 @@ const products = [
     title: "Necklakes",
     price: 99,
   },
-  {
-    image: Rings,
-    productId: "rings-silver",
-    categoryId: "rings",
-    title: "Watches",
-    price: 109,
-  },
+ 
   // {
   //   image: BraceletsWhite,
   //   productId: "white-bracelet",
@@ -208,17 +198,45 @@ const products = [
   //   price: 19,
   // },
   {
-    image: BraceletSilv,
-    productId: "classic-bracelet",
+    image: TopazB,
+    productId: "classic-topaz-bracelet",
     categoryId: "bracelets",
-    title: "Silver Classic White Blacelet",
+    title: "Topaz bracelet",
     price: 19,
   },
   {
-    image: BraceletSilver,
-    productId: "diamond-bracelet",
+    image: ChainB,
+    productId: "chain-bracelet",
     categoryId: "bracelets",
-    title: "Silver Blacelet With White Diamonds",
+    title: "chain bracelet",
+    price: 19,
+  },
+  {
+    image: boldB,
+    productId: "bold-bained-bracelet",
+    categoryId: "bracelets",
+    title: "bold bracelet",
+    price: 19,
+  },
+  {
+    image: DualB,
+    productId: "dual-bracelet",
+    categoryId: "bracelets",
+    title: "dual bracelet",
+    price: 19,
+  },
+  {
+    image: curbBrac,
+    productId: "curb-bracelet",
+    categoryId: "bracelets",
+    title: "curb baby bracelet",
+    price: 19,
+  },
+  {
+    image: boldBang,
+    productId: "bold-banged-bracelet",
+    categoryId: "bracelets",
+    title: "bol banged bracelet",
     price: 19,
   },
  

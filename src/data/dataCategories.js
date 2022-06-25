@@ -1,6 +1,5 @@
 import Rings from "../assets/diamond-rings.jpg";
-import Bracelets from "../assets/categories-3.jpg";
-import weddingJewerly from "../assets/products-4.jpg";
+import Bracelets from "../assets/bracelet-cat.jpg";
 import Necklaces from "../assets/TerraNecklace-v.jpg";
 import Earrings from "../assets/earrings-category-vers.jpg";
 
@@ -31,12 +30,7 @@ const categories = [
     title: "Necklaces",
     description: "Find the best rings for your Valentine",
   },
-  {
-    image: weddingJewerly,
-    categoryId: "watches",
-    title: "Watches",
-    description: "Our all best art for your best day",
-  },
+
   
 ];
 
