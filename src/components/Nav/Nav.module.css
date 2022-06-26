@@ -10,7 +10,7 @@
   text-decoration: none;
   font-size: 20px;
 }
- .Nav .icons {
+.Nav .icons {
   display: flex;
   justify-content: right;
   align-items: center;
@@ -18,18 +18,19 @@
 
   padding-left: 85rem;
 
-} 
+ 
+}
 .Nav .searchIcon {
   width: 15px;
-  padding: .9rem;
+  padding: .7rem;
 }
 .Nav .shoppingcartIcon {
   width: 14px;
-  padding: .9rem;
+  padding: .7rem;
 }
 .Nav .accountIcon {
   width: 14px;
-  padding: .9rem;
+  padding: .7rem;
 }
 
 
