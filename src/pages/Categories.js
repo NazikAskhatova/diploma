@@ -10,7 +10,7 @@ function Categories() {
     <>
       <Header title="Shop with us. Be confident with us" image={image}></Header>
 
-      <CategoryList categories={getCategories()} />
+      <CategoryList categories={getCategories()}/>
     </>
   );
 }
