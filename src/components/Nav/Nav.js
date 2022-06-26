@@ -16,7 +16,7 @@ function Nav() {
          <NavItem url="/">Home</NavItem>
       <NavItem url="/products">all Products</NavItem>
       <NavItem url="/bestsellers">Best Sellers</NavItem>
-       <NavItem url="/about">About</NavItem>
+       <NavItem url="/about">About us</NavItem>
        
       </ul>
       <div><NavLink to="/"><Logo /></NavLink></div>
