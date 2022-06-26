@@ -70,7 +70,7 @@
 // export default Cart;
 
 import Header from "../../components/Header/Header";
-import image from "../../assets/rings-product.webp"
+import image from "../../assets/headerimg.webp"
 import CartDisplay from "../../components/CartDisplay/CartDispaly";
 import { Link } from "react-router-dom";
 
