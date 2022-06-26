@@ -1,7 +1,6 @@
 .Nav {
   list-style: none;
   margin: 0;
-  
   position: fixed;
   top: 0;
   left: 0;
@@ -11,11 +10,35 @@
   text-decoration: none;
   font-size: 20px;
 }
+ .Nav .icons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: #000000;
+
+  padding-left: 85rem;
+
+} 
+.Nav .searchIcon {
+  width: 15px;
+  padding: .9rem;
+}
+.Nav .shoppingcartIcon {
+  width: 14px;
+  padding: .9rem;
+}
+.Nav .accountIcon {
+  width: 14px;
+  padding: .9rem;
+}
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .Nav {
     flex-direction: column;
-    margin: 1rem 0;
+    justify-content: center;
+  }
+  .Nav .logo {
+    order: -1;
   }
 }

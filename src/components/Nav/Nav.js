@@ -20,7 +20,7 @@ function Nav() {
       <NavLink to="/"><Logo /></NavLink>
       
         <NavLink to="/search" className={classes.icons}><img src={Search} className={classes.searchIcon} alt="Search" /></NavLink>
-        <NavLink to="/auth" className={classes.icons}><img src={UserIcon} className={classes.userIcon} alt="Account" /></NavLink>
+        <NavLink to="/auth" className={classes.icons}><img src={UserIcon} className={classes.accountIcon} alt="Account" /></NavLink>
         <NavLink to="/cart" className={classes.icons}><CartLink /></NavLink>
       
     </div>
