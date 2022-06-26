@@ -21,7 +21,7 @@ function Nav() {
       <ul className={classes.Nav}>
         <NavLink to="/search" className={classes.icons}><img src={Search} className={classes.searchIcon} alt="Search" /></NavLink>
         <NavLink to="/auth" className={classes.icons}><img src={UserIcon} className={classes.accountIcon} alt="Account" /></NavLink>
-        <NavLink to="/cart" className={classes.icons}><CartLink /></NavLink>
+        <NavLink to="/cart"><CartLink/></NavLink>
         </ul>
     </div>
   );

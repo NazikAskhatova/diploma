@@ -1,4 +1,17 @@
-.Nav .shoppingcartIcon {
-    width: 14px;
-    padding: .7rem;
+.CartLink {
+  text-decoration: none;
+}
+.shoppingcartIcon {
+    width: 16px;
+ 
+    padding: 0.7rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #000000;
+  
+    padding-left: 84rem;
+    margin-left: -1.2rem;
   }
+
+ 
