@@ -17,12 +17,15 @@ function Nav() {
       <NavItem url="/products">Our Products</NavItem>
        <NavItem url="/about">About</NavItem>
       </ul>
-      <NavLink to="/"><Logo /></NavLink>
-      <ul className={classes.Nav}>
+      <div><NavLink to="/"><Logo /></NavLink></div>
+      <div className={classes.Nav}>
+          <ul>
         <NavLink to="/search" className={classes.icons}><img src={Search} className={classes.searchIcon} alt="Search" /></NavLink>
         <NavLink to="/auth" className={classes.icons}><img src={UserIcon} className={classes.accountIcon} alt="Account" /></NavLink>
         <NavLink to="/cart" className={classes.icons}><CartLink /></NavLink>
         </ul>
+      </div>
+    
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import "./Logo.css"
 const Logo = () =>{
     return (
-        <div className="Logo">Jewerly Art</div>
+        <span className="Logo">Jewerly Art</span>
     )
 }
 
