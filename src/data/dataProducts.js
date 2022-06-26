@@ -4,7 +4,7 @@ import BrainedR from "../assets/brained-r.jpg";
 import Charlotte from "../assets/charlotte-ring.jpg";
 import coupleR from "../assets/couple-rings.jpg";
 import diamondring from "../assets/diamond-ring.jpg";
-import SignetR from "../assets/signed-ring.jpg";
+import SignetR from "../assets/signet-ring.jpg";
 
 import BoldEar from "../assets/Bold_Hoops.jpg";
 import MiniHoops from "../assets/DailyMiniHoops.jpg";

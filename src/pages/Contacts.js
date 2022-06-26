@@ -1,7 +1,7 @@
 import "./style.css";
 import React from "react";
 import Header from "../components/Header/Header";
-import image from "../assets/contacts-header.jpg";
+import image from "../assets/cart-nav.webp";
 function Contacts() {
   return (
     <>

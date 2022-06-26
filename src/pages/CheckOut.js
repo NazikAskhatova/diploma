@@ -74,7 +74,7 @@
 // export default CheckOut;
 
 import Header from "../components/Header/Header";
-import image from "../assets/rings-category.jpg";
+import image from "../assets/checkout-nav.webp";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
