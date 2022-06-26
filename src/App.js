@@ -14,6 +14,7 @@ import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import CheckOut from "./pages/CheckOut";
 import Auth from "./pages/Auth";
+import BestSellers from "./pages/BestSellers";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/checkout" element={<CheckOut />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/about" element={<About />} />
+          <Route path="/bestsellers" element={<BestSellers />} />
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
       </Layout>
