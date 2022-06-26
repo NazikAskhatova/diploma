@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./Shopby.css"
 function ShopBy() {
   return (
 
-      <div className="container">Shop By Category</div>
+      <div className="shopby">Shop By Categories</div>
 
   );
 }

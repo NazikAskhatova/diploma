@@ -3,6 +3,7 @@ import Bracelets from "../assets/bracelet-cat.jpg";
 import Necklaces from "../assets/TerraNecklace-v.jpg";
 import Earrings from "../assets/earrings-category-vers.jpg";
 import Wedding from "../assets/wedding-cat.jpg";
+import SingleEarr from "../assets/single-earrings.jpg";
 
 
 const categories = [
@@ -36,6 +37,12 @@ const categories = [
     image: Wedding,
     categoryId: "wedding",
     title: "Wedding",
+    description: "Find the best rings for your Valentine",
+  },
+  {
+    image: SingleEarr,
+    categoryId: "single-earrings",
+    title: "Single earrings",
     description: "Find the best rings for your Valentine",
   },
 
