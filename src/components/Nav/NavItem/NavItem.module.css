@@ -1,10 +1,12 @@
 .NavItem a {
-
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
     padding: 1rem 1.5rem;
     font-size: 1.2rem;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     color: black;
+
   }
 
   .NavItem .active {

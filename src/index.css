@@ -1,12 +1,14 @@
 body {
   margin: 0;
-  font-family: 'Mukta Mahee', sans-serif;
+  font-family: "Mukta Mahee", sans-serif;
 }
 
 .font-styles {
-   font-family: 'Mukta', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Rubik', sans-serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Beau Rivage", cursive;
 }
 
 .container {
@@ -14,4 +16,3 @@ font-family: 'Rubik', sans-serif;
   margin: 0 auto;
   padding: 0;
 }
- 
