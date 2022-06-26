@@ -28,7 +28,19 @@ import boldB from "../assets/bold-brac.jpg";
 import ChainB from "../assets/chain-brac.jpg";
 import boldBang from "../assets/bold_bangle_bracelet.jpg";
 
+import SingleEarring from "../assets/single-aer.jpg";
+import opalER from "../assets/opal-ear.jpg";
+import hoopEr from "../assets/beadedHoop.jpg";
+import MF from "../assets/MarshmallowCuff.jpg";
+import star from "../assets/Star-ear.jpg";
+import oneHope from "../assets/one-hoop_earr.jpg";
 
+import Wedding from "../assets/wed-cl.jpg";
+import slv from "../assets/cl-wedd.jpg";
+import Gld from "../assets/cl-wed-sil.jpg";
+import SLW from "../assets/cl-wedd-r.jpg";
+import WED from "../assets/cl-wedd-silver.jpg";
+import SilverR from "../assets/cl-wedd-silv.jpg";
 
 
 const products = [
@@ -74,13 +86,6 @@ const products = [
     title: "pearl hoops",
     price: 29,
   },
-  // {
-  //   image: Bracelets,
-  //   productId: "bracelet-pink",
-  //   categoryId: "earrings",
-  //   title: "Pink Gold Rosie Bracelet",
-  //   price: 29,
-  // },
   {
     image: Necklakes,
     productId: "terra-necklace",
@@ -182,21 +187,7 @@ const products = [
     title: "Necklakes",
     price: 99,
   },
- 
-  // {
-  //   image: BraceletsWhite,
-  //   productId: "white-bracelet",
-  //   categoryId: "bracelets",
-  //   title: "Snow White Silver Blacelet",
-  //   price: 19,
-  // },
-  // {
-  //   image: BraceletsSilver,
-  //   productId: "bracelet-silver",
-  //   categoryId: "bracelets",
-  //   title: "Silver Classic Blacelet",
-  //   price: 19,
-  // },
+
   {
     image: TopazB,
     productId: "classic-topaz-bracelet",
@@ -236,14 +227,97 @@ const products = [
     image: boldBang,
     productId: "bold-banged-bracelet",
     categoryId: "bracelets",
+    title: "bold banged bracelet",
+    price: 19,
+  },
+ 
+  {
+    image: SingleEarring,
+    productId: "bold-banged-bracelet",
+    categoryId: "single-earrings",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: opalER,
+    productId: "bold-banged-bracelet",
+    categoryId: "single-earrings",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: hoopEr,
+    productId: "bold-banged-bracelet",
+    categoryId: "single-earrings",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: MF,
+    productId: "bold-banged-bracelet",
+    categoryId: "single-earrings",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: star,
+    productId: "bold-banged-bracelet",
+    categoryId: "single-earrings",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: oneHope,
+    productId: "bold-banged-bracelet",
+    categoryId: "single-earrings",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: SilverR,
+    productId: "bold-banged-bracelet",
+    categoryId: "wedding",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: WED,
+    productId: "bold-banged-bracelet",
+    categoryId: "wedding",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: SLW,
+    productId: "bold-banged-bracelet",
+    categoryId: "wedding",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: Gld,
+    productId: "bold-banged-bracelet",
+    categoryId: "wedding",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: Wedding,
+    productId: "bold-banged-bracelet",
+    categoryId: "wedding",
+    title: "bol banged bracelet",
+    price: 19,
+  },
+  {
+    image: slv,
+    productId: "bold-banged-bracelet",
+    categoryId: "wedding",
     title: "bol banged bracelet",
     price: 19,
   },
  
-
+ 
   
-
-
   
 
 
