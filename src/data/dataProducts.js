@@ -1,6 +1,6 @@
 
 import BlockR from "../assets/block-ring.jpg";
-import BrainedR from "../assets/brained-r.jpg";
+import BrainedR from "../assets/brained-ring.jpg";
 import Charlotte from "../assets/charlotte-ring.jpg";
 import coupleR from "../assets/couple-rings.jpg";
 import diamondring from "../assets/diamond-ring.jpg";
@@ -22,7 +22,7 @@ import LotusN from "../assets/lotusNecklace.jpg";
 import SQRN from "../assets/sqr-necklace.jpg";
 
 import TopazB from "../assets/topaz-brac.jpg";
-import curbBrac from "../assets/curb-brac.jpg";
+import curbBrac from "../assets/curb-bracelet.jpg";
 import DualB from "../assets/dual-bracel.jpg";
 import boldB from "../assets/bold-brac.jpg";
 import ChainB from "../assets/chain-brac.jpg";

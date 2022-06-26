@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <hr></hr>
-      <div className="container">
+      <div className="flex-container">
        <Logo/>
        <div>
          <ul>
