@@ -10,9 +10,7 @@
   align-content: space-between;
 }
 
-
 .Nav .icons {
-
   width: 40px;
   height: 20px;
   margin-left: 150px;
@@ -21,8 +19,9 @@
   padding-left: 50rem;
 }
 
- 
-
+.Nav .icons:active {
+  color: rgb(241, 223, 175);
+}
 
 .Nav a {
   text-decoration: none;

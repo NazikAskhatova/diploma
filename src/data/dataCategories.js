@@ -2,6 +2,8 @@ import Rings from "../assets/diamond-rings.jpg";
 import Bracelets from "../assets/bracelet-cat.jpg";
 import Necklaces from "../assets/TerraNecklace-v.jpg";
 import Earrings from "../assets/earrings-category-vers.jpg";
+import Wedding from "../assets/wedding-cat.jpg";
+
 
 const categories = [
   {
@@ -28,6 +30,12 @@ const categories = [
     image: Necklaces,
     categoryId: "necklaces",
     title: "Necklaces",
+    description: "Find the best rings for your Valentine",
+  },
+  {
+    image: Wedding,
+    categoryId: "wedding",
+    title: "Wedding",
     description: "Find the best rings for your Valentine",
   },
 
