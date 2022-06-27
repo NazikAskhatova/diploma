@@ -1,5 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
+import Header from "../components/Header/Header";
 import { start } from "../redux/authSlice";
 
 export default function Auth() {
@@ -18,6 +19,7 @@ export default function Auth() {
 
   return (
     <form onSubmit={onAuthStart}>
+        <Header></Header>
       <label>
         Email:
         <input type="email" name="email" />
