@@ -5,6 +5,7 @@ function Header({ image, title, children }) {
   const style = {
     backgroundImage: `url(${image})`,
     backgroundPosition: "center",
+    
   };
 
   return (

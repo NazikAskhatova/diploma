@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Mukta Mahee", sans-serif;
+  overflow-x: hidden;
 }
 
 .font-styles {
