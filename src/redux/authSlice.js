@@ -29,12 +29,10 @@ const authSlice = createSlice({
   },
   reducers: {
     init: (state, action) => {
-        state = {
-          localId: null,
-          idToken: null,
-          error: null,
-          loading: false,
-        }
+        state.localId = null;
+        state.idToken = null;
+        state.error = null;
+        state.loading = false;
       },
       loading: (state, action) => {
         state.loading = true;
