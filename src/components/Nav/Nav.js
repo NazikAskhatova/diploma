@@ -7,8 +7,10 @@ import classes from "./Nav.module.css";
 import CartLink from "../CartLink/CartLink";
 import Logo from "../ui/Logo/Logo";
 import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 function Nav() {
+  const isAuthenticated = useSelector(store => store.auth.idToken !== null);
   return (
     <div className={classes.Nav}>
       
@@ -17,7 +19,8 @@ function Nav() {
       <NavItem url="/products">all Products</NavItem>
       <NavItem url="/bestsellers">Best Sellers</NavItem>
        <NavItem url="/about">About</NavItem>
-       
+       { isAuthenticated ? <NavItem url="/signout">Sign out</NavItem> : null }
+      { !isAuthenticated ? <NavItem url="/auth">Sign in</NavItem> : null }
       </ul>
       <div><NavLink to="/"><Logo /></NavLink></div>
       <div className={classes.Nav}>
