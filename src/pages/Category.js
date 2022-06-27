@@ -16,7 +16,7 @@ function Category() {
 
   return (
     <>
-      <Header title={category.title} image={category.image}>
+      <Header title={category.title} image={category.imageHeader}>
         {category.description}
       </Header>
 
