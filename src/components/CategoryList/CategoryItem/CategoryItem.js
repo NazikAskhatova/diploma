@@ -11,6 +11,7 @@ function CategoryItem({ category }) {
       <Link to={"/categories/" + category.categoryId}>{category.title}</Link>
     </div>
   );
+  
 }
 
 export default CategoryItem;
