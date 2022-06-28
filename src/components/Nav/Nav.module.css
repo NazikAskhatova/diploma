@@ -1,18 +1,12 @@
-/* * {
-  z-index: 100%;
-} */
-
 .Nav {
   display: flex;
-  height: 400px;
   flex-flow: column wrap;
 }
 .Nav .List {
- padding: 1rem;
-list-style: none;
-width: 300px;
-height: 100px;
-
+  padding: 1rem;
+  list-style: none;
+  width: 300px;
+  height: 100px;
 }
 .Nav .icons {
   width: 40px;
@@ -21,9 +15,9 @@ height: 100px;
   font-size: 16px;
 }
 .Nav .Logo {
-width: 200px;
-height: 60px;
-margin: 0 auto;
+  width: 200px;
+  height: 60px;
+  margin: 0 auto;
 }
 .Nav .icons:active {
   color: rgb(241, 223, 175);

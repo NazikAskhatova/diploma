@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-
 function Header({ image, title, children }) {
   const style = {
     backgroundImage: `url(${image})`,
