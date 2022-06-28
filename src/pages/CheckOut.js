@@ -4,7 +4,7 @@ import image from "../assets/checkout-nav.webp";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
-import CartDisplay from "../components/CartDisplay/CartDispaly";
+import CartDisplay from "../components/CartDisplay/CartDisplay";
 import { useEffect } from "react";
 
 function Checkout() {

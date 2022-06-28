@@ -7,7 +7,7 @@ import Product from "./pages/Product";
 import Products from "./pages/Products";
 import About from "./pages/About";
 import Category from "./pages/Category";
-import Cart from "./pages/Cart/Cart";
+import Cart from "./pages/Cart";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import CheckOut from "./pages/CheckOut";
