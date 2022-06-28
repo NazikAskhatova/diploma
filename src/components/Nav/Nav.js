@@ -15,9 +15,11 @@ function Nav() {
     <div className={classes.Nav}>
       <ul className={classes.List}>
         <NavItem url="/">Home</NavItem>
-        <NavItem url="/products">all Products</NavItem>
+        {/* <hr width="1" size="20" color="black"></hr>  */}
+       <NavItem url="/">Shop</NavItem>
+        <NavItem url="/products">All Products</NavItem>
         <NavItem url="/bestsellers">Best Sellers</NavItem>
-        <NavItem url="/about">About</NavItem>
+        <NavItem url="/about">About Us</NavItem>
       </ul>
       <div className={classes.Logo}>
         <NavLink to="/">

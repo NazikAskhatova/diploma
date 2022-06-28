@@ -5,6 +5,8 @@ import image from "../assets/headerimg.webp";
 import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/dataCategories";
 import ShopBy from "../components/ShopBy/ShopBy";
+import ProductList from "../components/ProductList/ProductList";
+import { getProducts } from "../data/dataProducts";
 
 function Home() {
   return (
@@ -16,6 +18,9 @@ function Home() {
       </Header>
       <ShopBy />
       <CategoryList categories={getCategories()} />
+
+     
+      <ProductList products={getProducts()} />
     </>
   );
 }
