@@ -19,7 +19,7 @@ function Product() {
         <img src={product.image} alt={product.title} />
         <div>
           <h2>{product.title}</h2>
-          <p>{product.title}</p>
+          {/* <p>{product.title}</p> */}
           <CartButton className={classes.CartButton} productId={params.productId} />
         </div>
       </div>
