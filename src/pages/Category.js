@@ -16,8 +16,8 @@ function Category() {
 
   return (
     <>
-      <Header title={category.title} image={category.imageHeader}>
-        {category.description}
+      <Header image={category.imageHeader}>
+
       </Header>
 
       <ProductList products={getProducts(category.categoryId)} />
