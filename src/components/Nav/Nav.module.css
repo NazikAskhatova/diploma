@@ -1,6 +1,7 @@
 .Nav {
   display: flex;
   flex-flow: column wrap;
+  height: 0px;
 }
 .Nav .List {
   padding: 1rem;
@@ -17,7 +18,8 @@
 .Nav .Logo {
   width: 200px;
   height: 60px;
-  margin: 0 auto;
+  padding-top: 20px;
+padding-left: 55px;
 }
 .Nav .icons:active {
   color: rgb(241, 223, 175);

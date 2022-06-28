@@ -11,5 +11,4 @@ function NavItem({ url, active, children }) {
     </li>
   );
 }
-
 export default NavItem;

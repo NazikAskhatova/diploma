@@ -19,13 +19,12 @@ function Nav() {
         <NavItem url="/bestsellers">Best Sellers</NavItem>
         <NavItem url="/about">About</NavItem>
       </ul>
-
       <div className={classes.Logo}>
         <NavLink to="/">
           <Logo />
         </NavLink>
       </div>
-      <div className={classes.Nav}>
+   
         <ul>
           <NavLink to="/search" className={classes.icons}>
             <img src={Search} className={classes.searchIcon} alt="Search" />
@@ -44,7 +43,7 @@ function Nav() {
             <CartLink />
           </NavLink>
         </ul>
-      </div>
+     
     </div>
   );
 }
