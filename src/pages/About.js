@@ -7,7 +7,7 @@ function About() {
     <>
     
       <Header
-        title="About our talented team and company."
+        // title="About our talented team and company."
         image={image}
       ></Header>
     </>

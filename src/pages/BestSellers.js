@@ -6,7 +6,7 @@ function BestSellers() {
   return (
     <>
       <Header
-        title="Here u can fond pur best products."
+        // title="Here u can fond pur best products."
         image={image}
       ></Header>
     </>

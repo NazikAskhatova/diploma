@@ -8,7 +8,7 @@ import { getProducts } from "../data/dataProducts";
 function Products() {
   return (
     <>
-      <Header title="Shop with us. Be confident with us" image={image}></Header>
+      <Header image={image}></Header>
 
       <ProductList products={getProducts()} />
     </>
