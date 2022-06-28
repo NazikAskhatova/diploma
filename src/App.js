@@ -3,8 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
-import Product from "./pages/Product/Product";
-// import NotFound from "./pages/NotFound";
+import Product from "./pages/Product";
 import Products from "./pages/Products";
 import About from "./pages/About";
 import Category from "./pages/Category";
@@ -39,7 +38,7 @@ function App() {
           <Route path="/auth" element={<Auth />} />
           <Route path="/about" element={<About />} />
           <Route path="/bestsellers" element={<BestSellers />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
+         
         </Routes>
       </Layout>
     </div>
