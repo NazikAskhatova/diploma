@@ -3,21 +3,28 @@
 } */
 
 .Nav {
-  list-style: none;
   display: flex;
   height: 400px;
   flex-flow: column wrap;
 }
+.Nav .List {
+ padding: 1rem;
+list-style: none;
+width: 300px;
+height: 100px;
 
+}
 .Nav .icons {
   width: 40px;
   height: 20px;
-  margin-left: 150px;
   line-height: 25px;
   font-size: 16px;
-  padding-left: 50rem;
 }
-
+.Nav .Logo {
+width: 200px;
+height: 60px;
+margin: 0 auto;
+}
 .Nav .icons:active {
   color: rgb(241, 223, 175);
 }
