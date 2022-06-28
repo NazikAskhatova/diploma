@@ -4,7 +4,6 @@ import Header from "../components/Header/Header";
 import { getCategory } from "../data/dataCategories";
 import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/dataProducts";
-// import ProductList from "../components/ProductList/ProductList";
 
 function Category() {
   const params = useParams();
