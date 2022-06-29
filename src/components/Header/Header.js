@@ -13,6 +13,7 @@ function Header({ image, title, children }) {
         <p className="second-art">{children}</p>
       </section>
     </header>
+
   );
 }
 

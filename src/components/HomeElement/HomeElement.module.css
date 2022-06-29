@@ -14,7 +14,7 @@ background-color: rgb(233, 227, 218);
     width: 30%;
     height: 30%;
     position: relative;
-    z-index: 2;
+  
 
     margin-right: 200px;
     margin-left: -100px;
@@ -28,10 +28,44 @@ background-color: rgb(233, 227, 218);
     left: 10;
     bottom: 15; 
     top: 15;
-    z-index: 3;
+   
     margin-right: 200px;
     margin-left: 400px;
     margin-top: 300px;
+}
+.CartButton {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;  
+  z-index: 10;
+  border: 0.1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0.5rem;
+
+}
+
+.CartButton:after {
+  content: "";
+  background-color: rgb(226, 166, 83);
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.CartButton:hover:after {
+  top: 0px;
+  left: 0px;
 }
 
 

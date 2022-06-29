@@ -3,7 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { start } from "../../redux/authSlice";
 import classes from "./AuthDisplay.module.css";
-import image from "../../assets/page-header-img.webp";
+// import image from "../../assets/page-header-img.webp";
+import AuthHeader from "../../assets/nav-img.webp"
+import Header from "../Header/Header";
 
 export default function AuthDisplay() {
   const dispatch = useDispatch();
@@ -36,8 +38,11 @@ export default function AuthDisplay() {
   }
 
   return (
+    <>
+ {/* <img src={image} alt="Auth" className={classes.Authimg} /> */}
+ <Header image={AuthHeader}/>
     <div className={classes.AuthD}>
-      <img src={image} alt="Auth" />
+      
       <form onSubmit={onAuthStart}>
         <h1>Sign in</h1>
         <p>Please sign in to your JewArt Account.</p>
@@ -52,6 +57,7 @@ export default function AuthDisplay() {
         <button>Sign in</button>
         <button>Sign up</button>
       </form>
-    </div>
+    </div>  
+     </>
   );
 }

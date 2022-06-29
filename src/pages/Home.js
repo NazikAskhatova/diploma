@@ -20,8 +20,6 @@ function Home() {
       <ShopBy />
       <CategoryList categories={getCategories()} />
 <HomeEl/>
-<hr>
-</hr>
 <Location/>
       {/* <All />
       <ProductList products={getProducts()} /> */}

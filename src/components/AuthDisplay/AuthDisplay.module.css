@@ -1,7 +1,6 @@
-.AuthD img {
+.Authimg {
   position: relative;
   top: 10rem;
-  /* bottom: 20rem; */
   margin-bottom: 13rem;
   left: 28rem;
   width: 89vh;
@@ -12,12 +11,14 @@
 .AuthD form {
   position: absolute;
   top: 200px;
-  right: 35%;
+  right: 28%;
   text-align: center;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   padding: 1rem;
   box-shadow: rgba(17, 17, 17, 0.874) 0px 2px 8px 0px;
+  margin-top: -80px;
+  background-color: rgba(171, 112, 112, 0.304);
 }
 .AuthD form h1 {
   margin: 20px 50px;

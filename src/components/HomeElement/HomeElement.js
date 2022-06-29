@@ -20,7 +20,7 @@ function HomeEl() {
             materials, from precious metals—such as recycled and responsibly
             mined gold—to responsibly sourced diamonds and AAA-grade gemstones.
           </p>   
-          <button>Learn More</button>
+          <button className={classes.CartButton}>Learn More</button>
           </div>
         <img src={Homeline} alt="HomeLine" className={classes.brings}/>
         <img src={moodboardEr} alt="earmood" className={classes.moodboard}/>

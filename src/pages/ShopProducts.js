@@ -6,14 +6,17 @@ import { getProducts } from "../data/dataProducts";
 import ShopBy from "../components/ShopBy/ShopBy";
 import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/dataCategories";
+import All from "../components/AllProducts/AllProducts";
 
 function Products() {
   return (
     <>
       <Header image={image}></Header>
+      <All/>
+       <ProductList products={getProducts()} />
       <ShopBy />
       <CategoryList categories={getCategories()} />
-      <ProductList products={getProducts()} />
+     
     </>
   );
 }
