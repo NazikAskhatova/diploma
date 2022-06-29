@@ -30,13 +30,13 @@ function Nav() {
       <ul>
         <li className={classes.icons}>
           <NavLink to="/search">
-            <img src={Search} className={classes.searchIcon} alt="Search" />
+            <img src={Search} alt="Search" />
           </NavLink>
         </li>
         {!isAuthenticated ? (
           <li className={classes.icons}>
             <NavLink to="/auth">
-              <img src={UserIcon} className={classes.icons} alt="Account" />
+              <img  src={UserIcon}  alt="Account" />
             </NavLink>
           </li>
         ) : null}
@@ -48,7 +48,7 @@ function Nav() {
           </li>
         ) : null} */}
         <li className={classes.icons}>
-          <NavLink to="/cart">
+          <NavLink  to="/cart">
             <CartLink />
           </NavLink>
         </li>
