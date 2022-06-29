@@ -1,24 +1,21 @@
 .Drawer .content {
   padding: 1rem 0;
-  background-color: rgb(192, 118, 66);
-  color: rgb(48, 28, 4);
+  background-color: rgb(201, 200, 200);
+  color: rgb(35, 21, 4);
   font-size: 27px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   width: 260px;
   overflow: hidden;
-
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   z-index: 100;
-
   transform: translateX(-300px);
   transition: transform 0.3s;
 }
 .Drawer .backdrop {
   background-color: rgba(0, 0, 0, 0.3);
-
   position: fixed;
   top: 0;
   left: 0;
@@ -27,7 +24,6 @@
   z-index: 90;
   display: none;
 }
-
 .open .backdrop {
   display: block;
 }
