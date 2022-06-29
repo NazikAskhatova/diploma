@@ -13,6 +13,7 @@ import { useEffect } from "react";
 import CheckOut from "./pages/CheckOut";
 import Auth from "./pages/Auth";
 import BestSellers from "./pages/BestSellers";
+import "./index.css";
 
 
 function App() {
@@ -22,8 +23,6 @@ function App() {
     dispatch({ type: "cart/restore" });
 
   }, [dispatch]);
-
-
   return (
     <div className="App">
       <Layout>

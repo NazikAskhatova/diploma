@@ -5,8 +5,10 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="Footer">
-      <hr></hr>
+
+<div>
+    
+<footer className="Footer">      <hr></hr>
       <div className="flex-container">
        <Logo/>
        <div>
@@ -24,7 +26,12 @@ function Footer() {
        </div>
        </div>
     </footer>
+
+    </div>
+    
+
   );
 }
+
 
 export default Footer;
