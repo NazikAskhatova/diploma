@@ -2,14 +2,11 @@
   text-decoration: none;
 }
 .shoppingcartIcon {
-  width: 16px;
-  padding: 0.7rem;
+  width: 20px;
+  /* padding: 0.7rem; */
 
-  display: flex;
+  /* display: flex;
   justify-content: right;
-  align-items: center;
+  align-items: center; */
   color: #000000;
-
-  position: relative;
-  left: calc(50% - 45px);
 }

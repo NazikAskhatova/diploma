@@ -1,6 +1,8 @@
 .AuthD img {
   position: relative;
   top: 10rem;
+  /* bottom: 20rem; */
+  margin-bottom: 13rem;
   left: 28rem;
   width: 89vh;
   height: 60vh;

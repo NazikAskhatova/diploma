@@ -13,6 +13,7 @@ import { useEffect } from "react";
 import CheckOut from "./pages/CheckOut";
 import Auth from "./pages/Auth";
 import BestSellers from "./pages/BestSellers";
+import SignOut from "./pages/SignOut";
 import "./index.css";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<CheckOut />} />
           <Route path="/auth" element={<Auth />} />
+          <Route path="/signout" element={<SignOut />} />
           <Route path="/about" element={<About />} />
           <Route path="/bestsellers" element={<BestSellers />} />
         </Routes>

@@ -19,39 +19,38 @@ function Nav() {
         <NavItem url="/products">All Products</NavItem>
         <NavItem url="/bestsellers">Best Sellers</NavItem>
         <NavItem url="/about">About Us</NavItem>
+        { isAuthenticated ? <NavItem url="/signout">Sign out</NavItem> : null }
+      { !isAuthenticated ? <NavItem url="/auth">Sign in</NavItem> : null }
       </ul>
+
       <div className={classes.Logo}>
         <NavLink to="/">
           <Logo />
         </NavLink>
       </div>
 
-      <ul>
-        <li className={classes.icons}>
-          <NavLink to="/search">
-            <img src={Search} alt="Search" />
+      <div className={classes.IconRow}>
+        <NavLink to="/search">
+          <img
+            className={classes.icons}
+            width="20px"
+            src={Search}
+            alt="Search"
+          />
+        </NavLink>
+        <NavLink to="/auth">
+            <img
+              className={classes.icons}
+              width="20px"
+              src={UserIcon}
+              alt="Account"
+            />
           </NavLink>
-        </li>
-        {!isAuthenticated ? (
-          <li className={classes.icons}>
-            <NavLink to="/auth">
-              <img  src={UserIcon}  alt="Account" />
-            </NavLink>
-          </li>
-        ) : null}
-        {/* {isAuthenticated ? (
-          <li className={classes.icons}>
-            <NavLink to="/signout">
-              <img src={Signout} className={classes.userIcon} alt="Account" />
-            </NavLink>
-          </li>
-        ) : null} */}
-        <li className={classes.icons}>
-          <NavLink  to="/cart">
-            <CartLink />
-          </NavLink>
-        </li>
-      </ul>
+        
+        <NavLink className={classes.icons} to="/cart">
+          <CartLink />
+        </NavLink>
+      </div>
     </div>
   );
 }
