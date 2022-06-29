@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "../../assets/magnifying-glass-solid.svg";
 import UserIcon from "../../assets/user-solid.svg";
-import Signout from "../../assets/right-from-bracket-solid.svg";
+// import Signout from "../../assets/right-from-bracket-solid.svg";
 import NavItem from "./NavItem/NavItem";
 import classes from "./Nav.module.css";
 import CartLink from "../CartLink/CartLink";
@@ -40,13 +40,13 @@ function Nav() {
             </NavLink>
           </li>
         ) : null}
-        {isAuthenticated ? (
+        {/* {isAuthenticated ? (
           <li className={classes.icons}>
             <NavLink to="/signout">
               <img src={Signout} className={classes.userIcon} alt="Account" />
             </NavLink>
           </li>
-        ) : null}
+        ) : null} */}
         <li className={classes.icons}>
           <NavLink to="/cart">
             <CartLink />
