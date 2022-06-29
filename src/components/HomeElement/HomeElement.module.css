@@ -1,81 +1,44 @@
+.Homeart {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+background-color: rgb(233, 227, 218);
+}
 .container {
-    margin: 0 125px 100px;
-  }
-  .container h1 {
-    text-transform: uppercase;
-    font-family: italic;
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 2px;
-    margin: 50px;
-  }
-  .aboutSection p {
-    font-size: 17px;
-    font-family: 'Libre Baskerville', serif;
-    text-transform: lowercase;
-    line-height: 1.5em;
-  }
-  .firstSection {
-    display: flex;
-    justify-content: space-between;
-  }
-  .firstSection div {
-    margin-top: 50px;
-  }
-  .firstSection p:first-child {
-    margin-bottom: 50px;
-  }
-  .aboutCollage {
-    width: 100%;
-    max-width: 500px;
-    margin-left: 50px;
-  }
-  .darkBg {
-    background-color: rgb(11, 28, 44);
-    padding: 50px 0;
-    margin-bottom: 50px;
-  }
-  .secondSection h1 {
-    color: white;
-    margin: 0;
-  }
-  .secondSection {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 500px;
+    height: 600px;
+}
+.Homeart .brings {
+    width: 30%;
+    height: 30%;
     position: relative;
-  }
-  .secondSection .fork { 
-    width: 100%;
-    max-width: 238px;
+    z-index: 2;
+
+    margin-right: 200px;
+    margin-left: -100px;
+    margin-top: 50px;
+}
+.Homeart .moodboard {
+    width: 30%;
+    height: 60%;
     position: absolute;
-    top: -130px;
-  }
-  .secondSection .buffet { 
-    float: right;
-    margin-left: 50px;
-    width: 100%;
-    max-width: 335px;
-  }
-  .secondSection p {
-    color: white;
-    margin-left: 300px;
-  }
+   
+    left: 10;
+    bottom: 15; 
+    top: 15;
+    z-index: 3;
+    margin-right: 200px;
+    margin-left: 400px;
+    margin-top: 300px;
+}
+
+
+
+
   
-  .thirdSection {
-    margin-top: 150px;
-  }
-  .thirdSection .mission {
-    font-size: 17px;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    text-align: center;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-  }
-  .thirdSection p {
-    text-align: center;
-    margin: 0 auto;
-  }
-  
-  @media (max-width: 1070px) {
+  /* @media (max-width: 1070px) {
     .container {
       margin: 0 50px 50px;
     }
@@ -124,4 +87,4 @@
     .secondSection h1 {
       margin-left: 140px;
     }
-  }
+  } */
