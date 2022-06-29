@@ -75,23 +75,27 @@ function CartDisplay() {
   }
 
   return (
-    <div className={classes.Cart}>
+   
+          <div className={classes.Cart}>
       <div className={classes.container}>
         <div className={classes.cartHeader}>
           <h1>Your Shopping Cart</h1>
           <p>Please review items in your cart.</p>
           {output}
         </div>
+        <hr className={classes.hrStyle}></hr>
         <div className={classes.totalPrice}>
           <h2>Order summary</h2>
-          Total: ${total} <br />
+          Total: ${total}
           <Link to={checkoutPath}>
             <button className={classes.checkoutButton}>Checkout</button>
           </Link>
         </div>
       </div>
     </div>
-  );
+  
+   
+);
 }
 
 export default CartDisplay;

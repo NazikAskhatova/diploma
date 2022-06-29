@@ -1,7 +1,6 @@
 
   .Cart {
     font-size: 17px;
-    font-family: 'Libre Baskerville', serif;
     text-transform: lowercase;
     line-height: 1.5em;
     text-align: center;
@@ -11,6 +10,8 @@
     padding: 0 125px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    margin-top: 200px;
   }
   .Cart .container .cartHeader {
     text-align: center;
@@ -23,7 +24,6 @@
     margin: 0;
   }
   .Cart .container .item {
-    border-bottom: 1px solid rgb(153, 153, 153);
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -49,14 +49,17 @@
     margin-left: 50px;
   }
   .Cart .container .totalPrice {
-    margin: 0;
+    margin-top: -100px;
     padding: 60px 0;
   }
   .Cart .container .totalPrice h2 {
     margin: 50px 0;
     text-align: center;
   }
+  .hrStyle {
   
+    border: 0.5px solid rgb(164, 164, 164);
+  }
   .changeButton {
     color: #0b1c2c;
     background-color: white;
