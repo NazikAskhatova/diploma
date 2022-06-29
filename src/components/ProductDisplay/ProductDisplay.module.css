@@ -1,32 +1,32 @@
 .Product {
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+.Product img {
+  max-width: 450px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+.Product div {
+  padding: 1rem;
+  font-family: serif;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.Product div h2 {
+  margin-top: 0;
+}
+.Product div p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 745px) {
+  .Product {
+    flex-direction: column;
   }
   .Product img {
-    max-width: 450px;
-    border-radius: 10px;
-    margin-right: 1rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
   }
-  .Product div {
-    padding: 1rem;
-    font-family: serif;
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    }
-  .Product div h2 {
-    margin-top: 0;
-  }
-  .Product div p {
-    font-size: 1.2rem;
-  }
-  
-  @media (max-width: 745px) {
-    .Product {
-      flex-direction: column;
-    }
-    .Product img {
-      margin-right: 0;
-      margin-bottom: 0.5rem;
-    }
-  }
+}

@@ -1,24 +1,28 @@
-
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-export const checkout = createAsyncThunk('cart/checkout', async (order, thunkAPI) => {
-  const response = await axios.post('https://diploma-2022-b5023-default-rtdb.firebaseio.com/orders.json', order);
+export const checkout = createAsyncThunk(
+  "cart/checkout",
+  async (order, thunkAPI) => {
+    const response = await axios.post(
+      "https://diploma-2022-b5023-default-rtdb.firebaseio.com/orders.json",
+      order
+    );
 
-  return response.data;
-});
+    return response.data;
+  }
+);
 
 const cartSlice = createSlice({
   name: "cart",
   initialState: {
-    items: JSON.parse(localStorage.getItem('cartItems') ?? '{}'),
+    items: JSON.parse(localStorage.getItem("cartItems") ?? "{}"),
   },
   reducers: {
     add: (store, action) => {
       if (store.items[action.payload]) {
         store.items[action.payload]++;
-      }
-      else {
+      } else {
         store.items[action.payload] = 1;
       }
     },
@@ -31,19 +35,18 @@ const cartSlice = createSlice({
     decrement: (store, action) => {
       if (store.items[action.payload] > 1) {
         store.items[action.payload]--;
-      }
-      else {
+      } else {
         delete store.items[action.payload];
       }
-      }
+    },
   },
   extraReducers: {
     [checkout.fulfilled]: (state, action) => {
       console.log(action);
       state.items = {};
-    }
+    },
   },
 });
 
- export const { add, remove, increment, decrement } = cartSlice.actions;
+export const { add, remove, increment, decrement } = cartSlice.actions;
 export default cartSlice.reducer;

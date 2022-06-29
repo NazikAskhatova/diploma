@@ -1,4 +1,3 @@
-
 import BlockR from "../assets/block-ring.jpg";
 import BrainedR from "../assets/brained-ring.jpg";
 import Charlotte from "../assets/charlotte-ring.jpg";
@@ -41,7 +40,6 @@ import Gld from "../assets/cl-wed-sil.jpg";
 import SLW from "../assets/cl-wedd-r.jpg";
 import WED from "../assets/cl-wedd-silver.jpg";
 import SilverR from "../assets/cl-wedd-silv.jpg";
-
 
 const products = [
   {
@@ -101,7 +99,7 @@ const products = [
     price: 29,
   },
   {
-    image:  SQRN,
+    image: SQRN,
     productId: "square-necklace",
     categoryId: "necklaces",
     title: "Square Necklace",
@@ -179,7 +177,7 @@ const products = [
     title: "Signet Ring",
     price: 69,
   },
-  
+
   {
     image: Necklakes,
     productId: "necklace-gold",
@@ -230,7 +228,7 @@ const products = [
     title: "Bold Banged Bracelet",
     price: 19,
   },
- 
+
   {
     image: SingleEarring,
     productId: "bold-banged-bracelet",
@@ -315,17 +313,11 @@ const products = [
     title: "Classic Wedding Silver Ring",
     price: 19,
   },
- 
- 
-  
-  
-
-
 ];
 
 export function getProducts(categoryId) {
   if (categoryId) {
-    return products.filter(product => product.categoryId === categoryId);    
+    return products.filter((product) => product.categoryId === categoryId);
   }
 
   return products;
@@ -333,8 +325,6 @@ export function getProducts(categoryId) {
 
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product =>  product.productId === productId
-    )
+    products.findIndex((product) => product.productId === productId)
   ];
 }

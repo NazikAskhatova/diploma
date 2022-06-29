@@ -9,4 +9,4 @@ function NavToggle({ callback }) {
   );
 }
 
-  export default NavToggle;
+export default NavToggle;

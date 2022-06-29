@@ -29,26 +29,26 @@ function Nav() {
 
       <ul>
         <li className={classes.icons}>
-          <NavLink to="/search" >
+          <NavLink to="/search">
             <img src={Search} className={classes.searchIcon} alt="Search" />
           </NavLink>
         </li>
         {!isAuthenticated ? (
           <li className={classes.icons}>
-            <NavLink to="/auth" >
+            <NavLink to="/auth">
               <img src={UserIcon} className={classes.icons} alt="Account" />
             </NavLink>
           </li>
         ) : null}
         {isAuthenticated ? (
           <li className={classes.icons}>
-            <NavLink to="/signout" >
+            <NavLink to="/signout">
               <img src={Signout} className={classes.userIcon} alt="Account" />
             </NavLink>
           </li>
         ) : null}
         <li className={classes.icons}>
-          <NavLink to="/cart" >
+          <NavLink to="/cart">
             <CartLink />
           </NavLink>
         </li>

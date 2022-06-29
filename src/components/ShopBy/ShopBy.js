@@ -1,11 +1,7 @@
 import React from "react";
-import "./Shopby.css"
+import "./Shopby.css";
 function ShopBy() {
-  return (
-
-      <div className="shopby">Shop By Categories</div>
-
-  );
+  return <div className="shopby">Shop By Categories</div>;
 }
 
 export default ShopBy;

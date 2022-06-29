@@ -7,7 +7,7 @@ function Toolbar({ toggleDrawer }) {
   return (
     <nav className={classes.Toolbar}>
       <div className={classes.container}>
-        <Nav/>
+        <Nav />
         <NavToggle callback={toggleDrawer} />
       </div>
     </nav>

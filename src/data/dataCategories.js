@@ -12,7 +12,6 @@ import EarringsH from "../assets/earrings-category.webp";
 import WeddingH from "../assets/wedding.webp";
 import SingleEarrH from "../assets/single-earrings-cat.webp";
 
-
 const categories = [
   {
     image: Earrings,
@@ -46,7 +45,7 @@ const categories = [
   },
   {
     image: Wedding,
-    imageHeader: WeddingH ,
+    imageHeader: WeddingH,
     categoryId: "wedding",
     title: "Wedding",
     description: "",
@@ -58,8 +57,6 @@ const categories = [
     title: "Single earrings",
     description: "",
   },
-
-  
 ];
 
 export function getCategories() {
@@ -71,4 +68,3 @@ export function getCategory(categoryId) {
     categories.findIndex((category) => category.categoryId === categoryId)
   ];
 }
-
