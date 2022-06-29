@@ -1,0 +1,44 @@
+.AuthD img {
+  position: relative;
+  top: 10rem;
+  left: 28rem;
+  width: 89vh;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.AuthD form {
+  position: absolute;
+  top: 200px;
+  right: 35%;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  box-shadow: rgba(17, 17, 17, 0.874) 0px 2px 8px 0px;
+}
+.AuthD form h1 {
+  margin: 20px 50px;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  font-weight: 550;
+  font-weight: normal;
+  font-family: "Beau Rivage", cursive;
+  text-align: left;
+}
+.AuthD form p {
+  font-size: 1.2rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.AuthD form label {
+  display: block;
+  margin: 1.5rem 0;
+}
+.AuthD form input {
+  width: 75%;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background-color: transparent;
+  padding: 20px 15px;
+  outline: none;
+}
