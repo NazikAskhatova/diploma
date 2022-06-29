@@ -1,6 +1,6 @@
 import React from "react";
-import NavItem from "../Nav/NavItem/NavItem";
-import Logo from "../ui/Logo/Logo";
+// import NavItem from "../Nav/NavItem/NavItem";
+// import Logo from "../ui/Logo/Logo";
 import "./Footer.css";
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
     <div>
       <footer className="Footer">
         {" "}
-        <hr></hr>
+        {/* <hr></hr>
         <div className="flex-container">
           <Logo />
           <div>
@@ -22,7 +22,7 @@ function Footer() {
               <NavItem url="/">Contact us</NavItem>
             </ul>
           </div>
-        </div>
+        </div> */}
       </footer>
     </div>
   );
