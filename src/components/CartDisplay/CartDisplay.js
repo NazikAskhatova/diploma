@@ -22,11 +22,17 @@ function CartDisplay() {
             to={"/cart/" + product.productId}
             className={classes.productCard}
           >
+            <button
+            className={classes.deleteButton}
+            onClick={() => dispatch(remove(product.productId))}
+          >
+            Delete
+          </button>
             <img
               src={product.image}
               alt={product.title}
               className={classes.productImage}
-              width="120px"
+              width="150px"
             />
             {product.title}
           </Link>
@@ -50,12 +56,7 @@ function CartDisplay() {
           <span className={classes.productPrice}>
             ${product.price * items[product.productId]}
           </span>
-          <button
-            className={classes.deleteButton}
-            onClick={() => dispatch(remove(product.productId))}
-          >
-            Delete
-          </button>
+         
         </div>
       );
     });
