@@ -5,6 +5,7 @@ import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/dataCategories";
 import ShopBy from "../components/ShopBy/ShopBy";
 import HomeEl from "../components/HomeElement/HomeElement";
+import Location from "../components/Location/Location";
 // import ProductList from "../components/ProductList/ProductList";
 // import { getProducts } from "../data/dataProducts";
 // import All from "../components/AllProducts/AllProducts";
@@ -19,6 +20,9 @@ function Home() {
       <ShopBy />
       <CategoryList categories={getCategories()} />
 <HomeEl/>
+<hr>
+</hr>
+<Location/>
       {/* <All />
       <ProductList products={getProducts()} /> */}
     </>
