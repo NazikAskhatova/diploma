@@ -1,4 +1,3 @@
-
 import Header from "../components/Header/Header";
 import image from "../assets/checkout-nav.webp";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,32 +9,32 @@ import { useEffect } from "react";
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { items, localId } = useSelector(store => ({
+  const { items, localId } = useSelector((store) => ({
     items: store.cart.items,
-    localId: store.auth.localId
+    localId: store.auth.localId,
   }));
 
   useEffect(() => {
     if (!localId) {
-      navigate('/auth');
+      navigate("/auth");
     }
   }, [localId, navigate]);
 
   function onCheckout(event) {
     event.preventDefault();
     const formData = new FormData(event.target);
-    dispatch(checkout({
-      localId: localId,
-      items: items,
-      ...Object.fromEntries(formData.entries()),
-    }));
-    navigate('/');
+    dispatch(
+      checkout({
+        localId: localId,
+        items: items,
+        ...Object.fromEntries(formData.entries()),
+      })
+    );
+    navigate("/");
   }
   return (
     <>
-      <Header
-        title="Checkout"
-        image={image}>
+      <Header title="Checkout" image={image}>
         Please enter your information.
       </Header>
 

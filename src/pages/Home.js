@@ -1,4 +1,3 @@
-
 import React from "react";
 import Header from "../components/Header/Header";
 import image from "../assets/headerimg.webp";
@@ -11,7 +10,6 @@ import { getProducts } from "../data/dataProducts";
 function Home() {
   return (
     <>
-    
       <Header title="Jewelry is our art." image={image}>
         {" "}
         Always for you.{" "}
@@ -19,7 +17,6 @@ function Home() {
       <ShopBy />
       <CategoryList categories={getCategories()} />
 
-     
       <ProductList products={getProducts()} />
     </>
   );
