@@ -26,6 +26,7 @@ function CartDisplay() {
               src={product.image}
               alt={product.title}
               className={classes.productImage}
+              width="120px"
             />
             {product.title}
           </Link>

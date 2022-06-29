@@ -1,5 +1,6 @@
 .Nav {
   display: flex;
+  height: 0;
   justify-content: space-between;
   max-width: 200vw;
 }
