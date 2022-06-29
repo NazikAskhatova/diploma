@@ -11,15 +11,16 @@
     transform: scale(1);
 
   }
-  .CategoryItem img:hover {
-    transform: scale(1.04);
+  .CategoryItem img:hover  {
+   transform: scale(1.04);
   }
-  .CategoryItem {
+  .CategoryItem{
     position: relative;
     flex: 0 0 30%;
     margin-bottom: 5rem;
     margin-top: 1rem;
-    text-align: center;
+    text-align: center; 
+    
   }
   .CategoryItem a {
     display: block;

@@ -54,7 +54,7 @@
 
 .ProductItem .price:hover {
   box-shadow: inset 100px 0 0 0 #d3a134;
-  background-color:rgb(182, 127, 24);
+  background-color:rgb(219, 173, 87);
   color: white;
 }
 
