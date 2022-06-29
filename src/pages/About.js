@@ -5,7 +5,6 @@ function About() {
   return (
     <>
       <Header
-        // title="About our talented team and company."
         image={image}
       ></Header>
     </>
