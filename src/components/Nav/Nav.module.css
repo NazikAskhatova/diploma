@@ -10,16 +10,18 @@
   width: 300px;
   height: 100px;
 }
-.Nav .List li {
-  margin-bottom: 20px;
-}
+
 .Nav .icons {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #0b1c2c;
+  flex-flow: column wrap;
+  list-style: none;
+  color: black;
   width: 20px;
   height: 20px;
+
+  position: relative;
+  top: 50px;
+  right: 50px;
 }
 .Nav .Logo {
   width: 200px;
@@ -27,7 +29,7 @@
   padding-top: 20px;
   padding-left: 55px;
 }
-.Nav .icons:active {
+.Nav .icons li:hover {
   color: rgb(241, 223, 175);
 }
 

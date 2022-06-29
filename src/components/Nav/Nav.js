@@ -16,7 +16,7 @@ function Nav() {
       <ul className={classes.List}>
         <NavItem url="/">Home</NavItem>
         {/* <hr width="1" size="20" color="black"></hr>  */}
-       <NavItem url="/">Shop</NavItem>
+        <NavItem url="/">Shop</NavItem>
         <NavItem url="/products">All Products</NavItem>
         <NavItem url="/bestsellers">Best Sellers</NavItem>
         <NavItem url="/about">About Us</NavItem>
@@ -26,26 +26,33 @@ function Nav() {
           <Logo />
         </NavLink>
       </div>
-   
-        <ul>
-          <NavLink to="/search" className={classes.icons}>
+
+      <ul>
+        <li className={classes.icons}>
+          <NavLink to="/search" >
             <img src={Search} className={classes.searchIcon} alt="Search" />
           </NavLink>
-          {!isAuthenticated ? (
-            <NavLink to="/auth" className={classes.icons}>
+        </li>
+        {!isAuthenticated ? (
+          <li className={classes.icons}>
+            <NavLink to="/auth" >
               <img src={UserIcon} className={classes.icons} alt="Account" />
             </NavLink>
-          ) : null}
-          {isAuthenticated ? (
-            <NavLink to="/signout" className={classes.icons}>
+          </li>
+        ) : null}
+        {isAuthenticated ? (
+          <li className={classes.icons}>
+            <NavLink to="/signout" >
               <img src={Signout} className={classes.userIcon} alt="Account" />
             </NavLink>
-          ) : null}
-          <NavLink to="/cart" className={classes.icons}>
+          </li>
+        ) : null}
+        <li className={classes.icons}>
+          <NavLink to="/cart" >
             <CartLink />
           </NavLink>
-        </ul>
-     
+        </li>
+      </ul>
     </div>
   );
 }
