@@ -15,13 +15,11 @@ import Auth from "./pages/Auth";
 import BestSellers from "./pages/BestSellers";
 import "./index.css";
 
-
 function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch({ type: "cart/restore" });
-
   }, [dispatch]);
   return (
     <div className="App">
@@ -37,7 +35,6 @@ function App() {
           <Route path="/auth" element={<Auth />} />
           <Route path="/about" element={<About />} />
           <Route path="/bestsellers" element={<BestSellers />} />
-         
         </Routes>
       </Layout>
     </div>

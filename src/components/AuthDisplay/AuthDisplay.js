@@ -40,9 +40,7 @@ export default function AuthDisplay() {
       <img src={image} alt="Auth" />
       <form onSubmit={onAuthStart}>
         <h1>Sign in</h1>
-        <p>
-        Please sign in to your JewArt Account.
-        </p>
+        <p>Please sign in to your JewArt Account.</p>
         {errorOutput}
         <label>
           <input type="email" name="email" placeholder="Email" />
