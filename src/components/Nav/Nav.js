@@ -1,7 +1,6 @@
 import React from "react";
 import Search from "../../assets/magnifying-glass-solid.svg";
 import UserIcon from "../../assets/user-solid.svg";
-// import Signout from "../../assets/right-from-bracket-solid.svg";
 import NavItem from "./NavItem/NavItem";
 import classes from "./Nav.module.css";
 import CartLink from "../CartLink/CartLink";
