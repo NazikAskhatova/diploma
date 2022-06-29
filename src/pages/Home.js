@@ -6,6 +6,7 @@ import { getCategories } from "../data/dataCategories";
 import ShopBy from "../components/ShopBy/ShopBy";
 import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/dataProducts";
+import All from "../components/AllProducts/AllProducts";
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
       </Header>
       <ShopBy />
       <CategoryList categories={getCategories()} />
-
+      <All />
       <ProductList products={getProducts()} />
     </>
   );

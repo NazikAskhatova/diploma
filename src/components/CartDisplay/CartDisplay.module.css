@@ -1,4 +1,4 @@
-/* 
+
   .Cart {
     font-size: 17px;
     font-family: 'Libre Baskerville', serif;
@@ -33,8 +33,8 @@
   .Cart .container .productCard {
     display: flex;
     align-items: center;
-    /* margin-right: 20px; */
-    /* text-decoration: none;
+    margin-right: 20px; 
+    text-decoration: none;
     color: #0b1c2c;
     width: 400px;
     cursor: default;
@@ -159,4 +159,4 @@
     .Cart .container .totalPrice h2 {
       margin: 20px 0;
     }
-  } */ 
+  } 
