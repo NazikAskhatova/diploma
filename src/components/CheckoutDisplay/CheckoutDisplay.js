@@ -53,7 +53,7 @@ function CheckoutDisplay() {
 
   return (
     <>
-    <Header image={HeaderImg}/>
+    <Header image={HeaderImg} />
     <div className={classes.AuthD}>
       <div className={classes.container}>
         <div className={classes.checkoutHeader}>
