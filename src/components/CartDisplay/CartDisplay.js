@@ -80,13 +80,13 @@ function CartDisplay() {
           <div className={classes.Cart}>
       <div className={classes.container}>
         <div className={classes.cartHeader}>
-          <h1>Your Shopping Cart</h1>
-          <p>Please review items in your cart.</p>
+          <h2 className={classes.font}>Your Shopping Cart</h2>
+          <p className={classes.font}>Please review items in your cart.</p>
           {output}
         </div>
         <hr className={classes.hrStyle}></hr>
         <div className={classes.totalPrice}>
-          <h2>Order summary</h2>
+          <h2 className={classes.font}>Order summary</h2>
           Total: ${total}
           <Link to={checkoutPath}>
             <button className={classes.CartButton}>Checkout</button>
