@@ -4,6 +4,8 @@ import { getProducts } from "../../data/dataProducts";
 import { Link, useNavigate } from "react-router-dom";
 import classes from "./CheckoutDisplay.module.css";
 import { checkout } from "../../redux/cartSlice";
+import HeaderImg from "../../assets/nav-img.webp"
+import Header from "../Header/Header";
 
 function CheckoutDisplay() {
   const dispatch = useDispatch();
@@ -50,7 +52,9 @@ function CheckoutDisplay() {
   }
 
   return (
-    <div className={classes.Checkout}>
+    <>
+    <Header image={HeaderImg}/>
+    <div className={classes.AuthD}>
       <div className={classes.container}>
         <div className={classes.checkoutHeader}>
           <h1>Checkout</h1>
@@ -78,10 +82,11 @@ function CheckoutDisplay() {
             <input type="text" name="phone" required />
           </label>
 
-          <button>Complete the order</button>
+          <button className={classes.CartButton}>Complete the order</button>
         </form>
       </div>
     </div>
+    </>
   );
 }
 

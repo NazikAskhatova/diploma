@@ -40,7 +40,7 @@ export default function AuthDisplay() {
   return (
     <>
  {/* <img src={image} alt="Auth" className={classes.Authimg} /> */}
- <Header image={AuthHeader}/>
+ <Header image={AuthHeader} className={classes.Authimg}/>
     <div className={classes.AuthD}>
       
       <form onSubmit={onAuthStart}>

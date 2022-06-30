@@ -1,59 +1,80 @@
-.Checkout {
-    font-size: 17px;
-    line-height: 1.5em;
-    text-align: center;
-    padding: 20px;
-  }
-  .Checkout .container {
-    margin: 0 125px;
-    margin-top: 100px;
-  }
-  .Checkout .container .checkoutHeader {
-    text-align: center;
-  }
-  .Checkout .container a {
-    text-decoration: none;
+.Authimg {
+  position: relative;
+  top: 10rem;
+  margin-bottom: 20rem;
+  left: 28rem;
+  width: 89vh;
+  height: 60vh;
+  object-fit: cover;
+  list-style-type: none;
+}
 
-  }
-  .Checkout .container h1 {
-    text-transform: uppercase;
-    font-family: italic;
-    font-size: 2rem;
-    letter-spacing: 2px;
-  }
-  .Checkout .container .productPrice {
-    margin-left: 50px;
-  }
-  .Checkout .container ul {
-    margin: 50px auto 30px;
-    max-width: 500px;
-  }
-  .Checkout .container li {
-    list-style-type: none;
-  }
-  .Checkout .container form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .Checkout button {
-    width: 200px;
-    margin: 5px auto;
-    padding: 5px 10px;
-    font-size: 1rem;
-    font-family: serif;
-    padding: 0.5rem;
-    color: white;
-    background-color: #0b1c2c;
-    border: solid 1px grey;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .totalPrice {
-    margin: 0 auto;
-    font-size: 18px;
-    font-weight: 600;
-  }
+.AuthD .container {
+  position: absolute;
+  top: 200px;
+  right: 28%;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  box-shadow: rgba(17, 17, 17, 0.874) 0px 2px 8px 0px;
+  margin-top: -80px;
+  background-color: rgba(171, 112, 112, 0.304);
+}
+.AuthD form h1 {
+  margin: 20px 50px;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  font-weight: 550;
+  font-weight: normal;
+  font-family: "Beau Rivage", cursive;
+  text-align: left;
+}
+.AuthD form p {
+  font-size: 1.2rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.AuthD form label {
+  display: block;
+  margin: 1.5rem 0;
+}
+.AuthD form input {
+  width: 75%;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background-color: transparent;
+  padding: 20px 15px;
+  outline: none;
+}
+.buttonNew {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
   
   @media (max-width: 800px) {
     .Checkout .container {
