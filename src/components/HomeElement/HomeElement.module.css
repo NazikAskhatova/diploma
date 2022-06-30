@@ -1,44 +1,57 @@
 .Homeart {
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-background-color: rgb(233, 227, 218);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(233, 227, 218);
 }
 .container {
-    margin-top: 100px;
-    margin-left: 200px;
-    width: 500px;
-    height: 600px;
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 500px;
+  height: 600px;
+}
+.container h3 {
+  font-size: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.container h5 {
+  font-size: 22px;
+  font-family: "Mukta", sans-serif;
+}
+.container p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
 }
 .Homeart .brings {
-    width: 30%;
-    height: 30%;
-    position: relative;
-  
+  width: 30%;
+  height: 30%;
+  position: relative;
 
-    margin-right: 200px;
-    margin-left: -100px;
-    margin-top: 50px;
+  margin-right: 200px;
+  margin-left: -100px;
+  margin-top: 50px;
 }
 .Homeart .moodboard {
-    width: 30%;
-    height: 60%;
-    position: absolute;
-   
-    left: 10;
-    bottom: 15; 
-    top: 15;
-   
-    margin-right: 200px;
-    margin-left: 400px;
-    margin-top: 300px;
+  width: 30%;
+  height: 60%;
+  position: absolute;
+
+  left: 10;
+  bottom: 15;
+  top: 15;
+
+  margin-right: 300px;
+  margin-left: 600px;
+  margin-top: 300px;
 }
 .CartButton {
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
   padding: 13px 20px 13px;
-  outline: 0;  
+  outline: 0;
   z-index: 10;
   border: 0.1px solid black;
   cursor: pointer;
@@ -48,7 +61,6 @@ background-color: rgb(233, 227, 218);
   -webkit-user-select: none;
   touch-action: manipulation;
   margin: 0.5rem;
-
 }
 
 .CartButton:after {
@@ -68,11 +80,7 @@ background-color: rgb(233, 227, 218);
   left: 0px;
 }
 
-
-
-
-  
-  /* @media (max-width: 1070px) {
+/* @media (max-width: 1070px) {
     .container {
       margin: 0 50px 50px;
     }
