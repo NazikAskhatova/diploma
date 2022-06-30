@@ -1,7 +1,5 @@
 .Checkout {
     font-size: 17px;
-    font-family: 'Libre Baskerville', serif;
-    text-transform: lowercase;
     line-height: 1.5em;
     text-align: center;
     padding: 20px;
@@ -15,7 +13,7 @@
   }
   .Checkout .container a {
     text-decoration: none;
-    color: #0b1c2c;
+
   }
   .Checkout .container h1 {
     text-transform: uppercase;
