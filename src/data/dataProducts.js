@@ -11,6 +11,8 @@ import BlockLargeHoops from "../assets/BlockLargeHoops.jpg";
 import SapphireHoops from "../assets/SapphireHoops_earrings.jpg";
 import PearlHoops from "../assets/hoops_earrings_pearl.jpg";
 import DMSHoops from "../assets/DomeSpheres_hoops.jpg";
+import DualMedium from "../assets/dual-medium-hoops.jpg";
+import BoldPearl from "../assets/bold-pearl-big-huggies.jpg";
 
 import Necklakes from "../assets/TerraNecklace.jpg";
 import NecklaceVarme from "../assets/Necklace-varme.jpg";
@@ -312,6 +314,20 @@ const products = [
     categoryId: "wedding",
     title: "Classic Wedding Silver Ring",
     price: 19,
+  },
+  {
+    image: DualMedium,
+    productId: "dual-medium-hoops",
+    categoryId: "earrings",
+    title: "Dual Medium Hoops",
+    price: 21,
+  },
+  {
+    image: BoldPearl,
+    productId: "bold-pearl-earrings",
+    categoryId: "earrings",
+    title: "Bold Pearl Big Huggies",
+    price: 18,
   },
 ];
 
