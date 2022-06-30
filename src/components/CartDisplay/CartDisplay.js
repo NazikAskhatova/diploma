@@ -23,7 +23,7 @@ function CartDisplay() {
             className={classes.productCard}
           >
             <button
-            className={classes.deleteButton}
+            className={classes.CartButton}
             onClick={() => dispatch(remove(product.productId))}
           >
             Delete
@@ -68,7 +68,7 @@ function CartDisplay() {
       <>
         <div>No items in the cart.</div>
         <Link to="/products">
-          <button className={classes.checkoutButton}>Continue shopping</button>
+          <button className={classes.CartButton}>Continue shopping</button>
         </Link>
       </>
     );
@@ -89,7 +89,7 @@ function CartDisplay() {
           <h2>Order summary</h2>
           Total: ${total}
           <Link to={checkoutPath}>
-            <button className={classes.checkoutButton}>Checkout</button>
+            <button className={classes.CartButton}>Checkout</button>
           </Link>
         </div>
       </div>

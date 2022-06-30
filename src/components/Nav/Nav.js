@@ -16,7 +16,6 @@ function Nav() {
         <NavItem url="/">Home</NavItem>
         {/* <hr width="1" size="20" color="black"></hr>  */}
         <NavItem url="/products">All Products</NavItem>
-        <NavItem url="/bestsellers">Best Sellers</NavItem>
         <NavItem url="/about">About Us</NavItem>
         { isAuthenticated ? <NavItem url="/signout">Sign out</NavItem> : null }
       { !isAuthenticated ? <NavItem url="/auth">Sign in</NavItem> : null }

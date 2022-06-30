@@ -8,6 +8,7 @@
   padding: 1rem;
   list-style: none;
   width: 300px;
+
 }
 .Nav .IconRow {
   display: flex;
@@ -43,12 +44,13 @@
   width: 14px;
   padding: 0.7rem;
 }
+
 @media (max-width: 900px) {
   .Nav {
     flex-direction: column;
     justify-content: center;
   }
-  .Nav .logo {
-    order: -1;
+  .Nav .Logo {
+    text-align: center;
   }
 }

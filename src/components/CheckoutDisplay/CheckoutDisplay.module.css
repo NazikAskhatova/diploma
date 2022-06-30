@@ -1,0 +1,67 @@
+.Checkout {
+    font-size: 17px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: lowercase;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 20px;
+  }
+  .Checkout .container {
+    margin: 0 125px;
+    margin-top: 100px;
+  }
+  .Checkout .container .checkoutHeader {
+    text-align: center;
+  }
+  .Checkout .container a {
+    text-decoration: none;
+    color: #0b1c2c;
+  }
+  .Checkout .container h1 {
+    text-transform: uppercase;
+    font-family: italic;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  .Checkout .container .productPrice {
+    margin-left: 50px;
+  }
+  .Checkout .container ul {
+    margin: 50px auto 30px;
+    max-width: 500px;
+  }
+  .Checkout .container li {
+    list-style-type: none;
+  }
+  .Checkout .container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .Checkout button {
+    width: 200px;
+    margin: 5px auto;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-family: serif;
+    padding: 0.5rem;
+    color: white;
+    background-color: #0b1c2c;
+    border: solid 1px grey;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .totalPrice {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 800px) {
+    .Checkout .container {
+      margin: 0 100px;
+    }
+    .Checkout .container h1 {
+      margin: 50px 0;
+    }
+  }
