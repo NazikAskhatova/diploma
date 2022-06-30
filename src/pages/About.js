@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header/Header";
-import image from "../assets/page-header-img.webp";
+import image from "../assets/header-jw.jpg";
 function About() {
   return (
     <>
