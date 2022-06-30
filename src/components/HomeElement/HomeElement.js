@@ -22,8 +22,8 @@ function HomeEl() {
           </p>   
           {/* <button className={classes.CartButton}>Learn More</button> */}
           </div>
-        <img src={Homeline} alt="HomeLine" className={classes.brings}/>
-        <img src={moodboardEr} alt="earmood" className={classes.moodboard}/>
+        <img src={Homeline} alt="MoodboardN" className={classes.brings}/>
+        <img src={moodboardEr} alt="MoodboardS" className={classes.moodboard}/>
       </div>
     </>
   );

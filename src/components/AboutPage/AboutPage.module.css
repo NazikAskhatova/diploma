@@ -1,0 +1,65 @@
+.Homeart {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(233, 227, 218);
+  }
+  .container {
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 600px;
+    height: 600px;
+  }
+  .container h3 {
+    font-size: 40px;
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  .container h4 {
+    font-size: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    width: 500px;
+  }
+  .container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    width: 500px;
+  }
+  .Homeart .moodboard {
+    width: 37%;
+    height: 50%;
+    position: relative;
+  
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 90px;
+    z-index: 3;
+  }
+  .Homeart .brings {
+    width: 20%;
+    height: 40%;
+    position: absolute;
+  
+    left: 15;
+    bottom: 15;
+    top: 20;
+  
+    margin-right: 100px;
+    margin-left: 500px;
+    margin-top: 70px;
+    z-index: 2;
+}
+.Homeart .charlo {
+    width: 40%;
+    height: 50%;
+    position: relative;
+
+ 
+    
+    margin-right: 200px;
+    margin-left: 200px;
+   margin-top: -115px;
+    
+    z-index: 2;
+}

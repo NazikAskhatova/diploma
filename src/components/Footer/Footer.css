@@ -9,7 +9,7 @@
 }
 
 .Footer hr {
-  border: 1px solid rgb(115, 115, 115);
+  border: .1px solid rgb(115, 115, 115);
   width: 1200px;
   border-radius: 5px;
 }
