@@ -1,13 +1,11 @@
 import React from "react";
-import Header from "../components/Header/Header";
-import image from "../assets/header-jw.jpg";
+import AboutUs from "../components/AboutUs/AboutUs"
+
 import AboutPage from "../components/AboutPage/AboutPage";
 function About() {
   return (
     <>
-      <Header
-        image={image}
-      ></Header>
+     <AboutUs/>
       <AboutPage/>
     </>
   );

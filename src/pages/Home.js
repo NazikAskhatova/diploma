@@ -6,6 +6,7 @@ import { getCategories } from "../data/dataCategories";
 import ShopBy from "../components/ShopBy/ShopBy";
 import HomeEl from "../components/HomeElement/HomeElement";
 import Location from "../components/Location/Location";
+import SectionLine from "../components/SectionLine/SectionLine";
 // import ProductList from "../components/ProductList/ProductList";
 // import { getProducts } from "../data/dataProducts";
 // import All from "../components/AllProducts/AllProducts";
@@ -19,6 +20,7 @@ function Home() {
       </Header>
       <ShopBy />
       <CategoryList categories={getCategories()} />
+      <SectionLine/>
 <HomeEl/>
 <Location/>
       {/* <All />
