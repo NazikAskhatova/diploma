@@ -17,7 +17,8 @@ function Product() {
       <div className={classes.Product}>
         <img src={product.image} alt={product.title} />
         <div>
-          <h2>{product.title}</h2>
+          <h3>{product.title} </h3> 
+       <span className={classes.Price}> $ {product.price}</span>
           <CartButton
             className={classes.CartButton}
             productId={params.productId}
