@@ -28,7 +28,7 @@ function Nav() {
       </div>
 
       <div className={classes.IconRow}>
-        <NavLink to="/search">
+        <NavLink to="/products">
           <img
             className={classes.icons}
             width="20px"

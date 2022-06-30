@@ -68,7 +68,6 @@
   .CartButton {
     font-size: 16px;
     font-weight: 200;
-    letter-spacing: 1px;
     padding: 13px 20px 13px;
     outline: 0;
     border: 0.1px solid black;
@@ -107,8 +106,6 @@
     border: 1px #0b1c2c solid;
     border-radius: 5px;
     font-size: 15px;
-    font-family: 'Libre Baskerville', serif;
-    text-transform: lowercase;
     line-height: 1.5em;
   }
   .deleteButton {

@@ -54,8 +54,8 @@ export default function AuthDisplay() {
           <input type="password" name="password" placeholder="Password" />
         </label>
 
-        <button>Sign in</button>
-        <button>Sign up</button>
+        <button className={classes.buttonNew}><span className={classes.text}>Sign in</span></button>
+        <button><span>Sign up</span></button>
       </form>
     </div>  
      </>
